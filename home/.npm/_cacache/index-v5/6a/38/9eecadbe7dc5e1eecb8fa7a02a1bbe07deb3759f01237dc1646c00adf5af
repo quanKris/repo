@@ -1,2 +1,0 @@
-
-193127f88fde05da159c60cad22ece8eecbdc4c1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/registry-auth-token","integrity":null,"time":1704273982203,"size":"262","metadata":{"time":1704273982203,"url":"https://registry.npm.taobao.org/registry-auth-token","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:22 GMT","location":"https://registry.npmmirror.com/registry-auth-token"},"options":{"compress":true},"status":301}}

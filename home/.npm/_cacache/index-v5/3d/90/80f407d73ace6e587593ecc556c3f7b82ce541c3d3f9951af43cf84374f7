@@ -1,2 +1,0 @@
-
-a1947fe590c611ad0263b1498f0a6661e398593f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/snapdragon-node","integrity":null,"time":1704273964826,"size":"262","metadata":{"time":1704273964826,"url":"https://registry.npm.taobao.org/snapdragon-node","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:04 GMT","location":"https://registry.npmmirror.com/snapdragon-node"},"options":{"compress":true},"status":301}}

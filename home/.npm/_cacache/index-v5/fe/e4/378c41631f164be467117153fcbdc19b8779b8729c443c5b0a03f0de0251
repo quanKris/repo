@@ -1,2 +1,0 @@
-
-b56923eda0ee79024e2273e015ba9432c8cf06f1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@vue%2fcompiler-sfc","integrity":null,"time":1704273954733,"size":"262","metadata":{"time":1704273954733,"url":"https://registry.npm.taobao.org/@vue%2fcompiler-sfc","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/@vue%2fcompiler-sfc"},"options":{"compress":true},"status":301}}

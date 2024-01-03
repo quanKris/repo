@@ -1,2 +1,0 @@
-
-0da4ef5debb8d2c27aa011b85c5e6ed0e65f6817	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/flush-write-stream","integrity":null,"time":1704273966215,"size":"262","metadata":{"time":1704273966215,"url":"https://registry.npm.taobao.org/flush-write-stream","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/flush-write-stream"},"options":{"compress":true},"status":301}}

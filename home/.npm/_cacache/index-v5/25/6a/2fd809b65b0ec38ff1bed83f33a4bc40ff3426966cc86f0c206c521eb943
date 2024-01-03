@@ -1,2 +1,0 @@
-
-a5ee5b8b8efba6c65d75264b79dabe2f00a2d37e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/signal-exit","integrity":null,"time":1704273981890,"size":"262","metadata":{"time":1704273981890,"url":"https://registry.npm.taobao.org/signal-exit","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:21 GMT","location":"https://registry.npmmirror.com/signal-exit"},"options":{"compress":true},"status":301}}

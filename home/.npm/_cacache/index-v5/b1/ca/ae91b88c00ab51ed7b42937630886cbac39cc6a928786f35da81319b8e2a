@@ -1,2 +1,0 @@
-
-be2de3ebc818c05f9cb80e9cb346d6949d6d3312	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@babel%2fpreset-modules","integrity":null,"time":1704273958502,"size":"262","metadata":{"time":1704273958502,"url":"https://registry.npm.taobao.org/@babel%2fpreset-modules","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:58 GMT","location":"https://registry.npmmirror.com/@babel%2fpreset-modules"},"options":{"compress":true},"status":301}}

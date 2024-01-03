@@ -1,2 +1,0 @@
-
-5ba3d66083465379bf2f02b17160f5d5d7a10853	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/internal-slot","integrity":null,"time":1704273980735,"size":"262","metadata":{"time":1704273980735,"url":"https://registry.npm.taobao.org/internal-slot","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/internal-slot"},"options":{"compress":true},"status":301}}

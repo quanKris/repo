@@ -1,2 +1,0 @@
-
-e26f62f3e06b9b287f303dc4ec8197f2e16945fb	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/uniqs","integrity":null,"time":1704273974928,"size":"262","metadata":{"time":1704273974928,"url":"https://registry.npm.taobao.org/uniqs","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:14 GMT","location":"https://registry.npmmirror.com/uniqs"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-8a077fe9d1278c78ec07706392bb6d864635209c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/call-me-maybe","integrity":null,"time":1704273969573,"size":"262","metadata":{"time":1704273969573,"url":"https://registry.npm.taobao.org/call-me-maybe","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:09 GMT","location":"https://registry.npmmirror.com/call-me-maybe"},"options":{"compress":true},"status":301}}

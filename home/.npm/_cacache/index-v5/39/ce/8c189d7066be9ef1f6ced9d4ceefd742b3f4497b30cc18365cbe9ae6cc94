@@ -1,2 +1,0 @@
-
-0de61de190f436824f181cfd9439073fe854c5f6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/wrap-ansi","integrity":null,"time":1704273954991,"size":"262","metadata":{"time":1704273954991,"url":"https://registry.npm.taobao.org/wrap-ansi","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/wrap-ansi"},"options":{"compress":true},"status":301}}

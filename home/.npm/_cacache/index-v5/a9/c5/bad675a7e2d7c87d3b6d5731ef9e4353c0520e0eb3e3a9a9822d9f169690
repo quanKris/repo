@@ -1,2 +1,0 @@
-
-ecdf60b1bcc06c032c10dba827e78792ac683adf	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/parallel-transform","integrity":null,"time":1704273966216,"size":"262","metadata":{"time":1704273966216,"url":"https://registry.npm.taobao.org/parallel-transform","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/parallel-transform"},"options":{"compress":true},"status":301}}

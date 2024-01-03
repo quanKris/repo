@@ -1,2 +1,0 @@
-
-93554ddb04b69d1f4a17f3668444005ef1b22f09	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/markdown-it-anchor","integrity":null,"time":1704273954201,"size":"262","metadata":{"time":1704273954201,"url":"https://registry.npm.taobao.org/markdown-it-anchor","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/markdown-it-anchor"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-e00f3708639fa08420cb385dbd5621c3d5a72638	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/stylus","integrity":null,"time":1704273952984,"size":"262","metadata":{"time":1704273952984,"url":"https://registry.npm.taobao.org/stylus","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/stylus"},"options":{"compress":true},"status":301}}

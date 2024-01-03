@@ -1,2 +1,0 @@
-
-8166bed5ee82cd79989779abaf0b350f9e8f75bf	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/unbox-primitive","integrity":null,"time":1704273980808,"size":"262","metadata":{"time":1704273980808,"url":"https://registry.npm.taobao.org/unbox-primitive","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/unbox-primitive"},"options":{"compress":true},"status":301}}

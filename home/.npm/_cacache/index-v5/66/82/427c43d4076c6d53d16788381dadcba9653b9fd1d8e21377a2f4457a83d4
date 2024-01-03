@@ -1,2 +1,0 @@
-
-5aa27bd402f387d2316c3661b8f3925ddcc9b12c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/terser-webpack-plugin","integrity":null,"time":1704273954377,"size":"262","metadata":{"time":1704273954377,"url":"https://registry.npm.taobao.org/terser-webpack-plugin","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/terser-webpack-plugin"},"options":{"compress":true},"status":301}}

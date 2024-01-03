@@ -1,2 +1,0 @@
-
-cd5f6e575be1378fcdf15870a8c5ef6b6a8ce0e7	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vue-class-component","integrity":null,"time":1704273987687,"size":"262","metadata":{"time":1704273987687,"url":"https://registry.npm.taobao.org/vue-class-component","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:27 GMT","location":"https://registry.npmmirror.com/vue-class-component"},"options":{"compress":true},"status":301}}

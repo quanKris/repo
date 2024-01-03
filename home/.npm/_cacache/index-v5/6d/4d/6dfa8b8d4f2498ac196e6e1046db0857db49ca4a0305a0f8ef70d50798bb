@@ -1,2 +1,0 @@
-
-35174c2aa54eddbdc6c86171107e0c8b2428c2c9	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/split-on-first","integrity":null,"time":1704273992695,"size":"262","metadata":{"time":1704273992695,"url":"https://registry.npm.taobao.org/split-on-first","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:32 GMT","location":"https://registry.npmmirror.com/split-on-first"},"options":{"compress":true},"status":301}}

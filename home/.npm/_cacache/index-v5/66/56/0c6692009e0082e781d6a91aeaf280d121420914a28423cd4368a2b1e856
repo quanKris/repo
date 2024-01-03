@@ -1,2 +1,0 @@
-
-d376a4d53a5ac28241891d6a63b21516511cadd3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vuejs-paginate","integrity":null,"time":1704273986690,"size":"262","metadata":{"time":1704273986690,"url":"https://registry.npm.taobao.org/vuejs-paginate","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:26 GMT","location":"https://registry.npmmirror.com/vuejs-paginate"},"options":{"compress":true},"status":301}}

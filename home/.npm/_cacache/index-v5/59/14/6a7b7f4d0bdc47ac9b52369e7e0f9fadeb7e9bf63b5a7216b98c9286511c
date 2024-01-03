@@ -1,2 +1,0 @@
-
-24bd8636631294d99ec7611be4f0ea7ce487e123	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esbuild-linux-32","integrity":null,"time":1704273954435,"size":"262","metadata":{"time":1704273954435,"url":"https://registry.npm.taobao.org/esbuild-linux-32","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/esbuild-linux-32"},"options":{"compress":true},"status":301}}

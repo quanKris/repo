@@ -1,2 +1,0 @@
-
-098725eb3ccba57a0a13ff0424b76c4f554f7e1a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/https-browserify","integrity":null,"time":1704273993632,"size":"262","metadata":{"time":1704273993632,"url":"https://registry.npm.taobao.org/https-browserify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:33 GMT","location":"https://registry.npmmirror.com/https-browserify"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-53196818474f26e4e6e781cddc6cd8e69a8d7a44	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/webpack-dev-server","integrity":null,"time":1704273952977,"size":"262","metadata":{"time":1704273952977,"url":"https://registry.npm.taobao.org/webpack-dev-server","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/webpack-dev-server"},"options":{"compress":true},"status":301}}

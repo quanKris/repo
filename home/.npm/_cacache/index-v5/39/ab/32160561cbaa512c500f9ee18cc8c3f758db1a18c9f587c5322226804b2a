@@ -1,2 +1,0 @@
-
-231eac181fc34808f0a56c46134e06d91e585f92	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/valine","integrity":null,"time":1704273986696,"size":"262","metadata":{"time":1704273986696,"url":"https://registry.npm.taobao.org/valine","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:26 GMT","location":"https://registry.npmmirror.com/valine"},"options":{"compress":true},"status":301}}

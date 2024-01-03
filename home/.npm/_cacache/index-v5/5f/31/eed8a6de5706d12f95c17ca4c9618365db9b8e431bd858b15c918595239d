@@ -1,2 +1,0 @@
-
-8145fab98d77266898322ef66fb267e9f5e9c578	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/ecc-jsbn","integrity":null,"time":1704273978920,"size":"262","metadata":{"time":1704273978920,"url":"https://registry.npm.taobao.org/ecc-jsbn","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:18 GMT","location":"https://registry.npmmirror.com/ecc-jsbn"},"options":{"compress":true},"status":301}}

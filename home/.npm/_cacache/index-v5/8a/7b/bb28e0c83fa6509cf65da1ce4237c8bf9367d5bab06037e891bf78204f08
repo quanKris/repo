@@ -1,2 +1,0 @@
-
-628039b1b664476768a70ee2fd66871c443f7f31	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/lodash.trimstart","integrity":null,"time":1704273989449,"size":"262","metadata":{"time":1704273989449,"url":"https://registry.npm.taobao.org/lodash.trimstart","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:29 GMT","location":"https://registry.npmmirror.com/lodash.trimstart"},"options":{"compress":true},"status":301}}

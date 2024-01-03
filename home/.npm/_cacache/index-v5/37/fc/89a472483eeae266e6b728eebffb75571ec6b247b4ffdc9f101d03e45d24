@@ -1,2 +1,0 @@
-
-6049b8126c0d3b83119d49d81eb8deb78b2d7711	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/pify","integrity":null,"time":1704273961150,"size":"262","metadata":{"time":1704273961150,"url":"https://registry.npm.taobao.org/pify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:01 GMT","location":"https://registry.npmmirror.com/pify"},"options":{"compress":true},"status":301}}

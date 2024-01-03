@@ -1,0 +1,55 @@
+# name: Deploy GitHub Pages
+
+# # 触发条件：在 push 到 master 分支后
+# on:
+#   push:
+#     branches:
+#       - main
+
+# # 任务
+# jobs:
+#   build-and-deploy:
+#     # 服务器环境：最新版 Ubuntu
+#     runs-on: windows-2019
+#     steps:
+#       # 拉取代码
+#       - name: Checkout
+#         uses: actions/checkout@v2
+#         with:
+#           persist-credentials: false
+
+#       # 生成静态文件
+#       - name: Build
+#         run: npm install --registry=https://registry.npm.taobao.org && npm run build
+
+#       # 部署到 GitHub Pages
+#       - name: Deploy
+#         uses: JamesIves/github-pages-deploy-action@releases/v3
+#         with:
+#           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+#           BRANCH: main
+#           FOLDER: /dist
+name: AAA
+on: # 监听 master 分支上的 push 事件
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # 构建环境使用 ubuntu
+    steps:
+    - name: Checkout
+      uses: actions/checkout@master
+
+    - name: Build and Deploy
+      uses: jenkey2011/vuepress-deploy@master
+      env:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # VUEAD 是我的 secret 名称，需要替换成你的
+        # 你要操作的目标仓库，注意：是项目仓库名
+        TARGET_REPO: quanKris/repo
+        # 构建结果存储的分支
+        TARGET_BRANCH: main
+        # 要使用的构建命令
+        BUILD_SCRIPT: npm install --registry=https://registry.npm.taobao.org && npm run build # 下载依赖 打包项目
+        # 构建结果存储目录，dist里面会有index.html，如果没有这个文件，显示不了，可在本地构建后去校验
+        BUILD_DIR: ./

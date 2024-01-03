@@ -1,2 +1,0 @@
-
-9408f0d9743afd2f30795636cc9fbefcfac04b7f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/figgy-pudding","integrity":null,"time":1704273965832,"size":"262","metadata":{"time":1704273965832,"url":"https://registry.npm.taobao.org/figgy-pudding","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:05 GMT","location":"https://registry.npmmirror.com/figgy-pudding"},"options":{"compress":true},"status":301}}

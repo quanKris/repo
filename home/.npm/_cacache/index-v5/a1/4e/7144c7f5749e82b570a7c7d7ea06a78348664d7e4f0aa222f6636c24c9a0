@@ -1,2 +1,0 @@
-
-b47c0c2e0287793b65c6b36a6912c3e0ab1eca54	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/vue-click-outside","integrity":null,"time":1704273952152,"size":"262","metadata":{"time":1704273952152,"url":"https://registry.npm.taobao.org/vue-click-outside","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/vue-click-outside"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-8829972c16bf45824dbd4d2c6e7e3858f6855c06	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/write-file-atomic","integrity":null,"time":1704273981368,"size":"262","metadata":{"time":1704273981368,"url":"https://registry.npm.taobao.org/write-file-atomic","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:21 GMT","location":"https://registry.npmmirror.com/write-file-atomic"},"options":{"compress":true},"status":301}}

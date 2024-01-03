@@ -1,2 +1,0 @@
-
-4a911ba9270f8396dfbd205fa3a94b9f80f27e82	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/fast-safe-stringify","integrity":null,"time":1704273991461,"size":"262","metadata":{"time":1704273991461,"url":"https://registry.npm.taobao.org/fast-safe-stringify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:31 GMT","location":"https://registry.npmmirror.com/fast-safe-stringify"},"options":{"compress":true},"status":301}}

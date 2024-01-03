@@ -1,2 +1,0 @@
-
-4247e030299a9e4c98ae9679af5057a51f55d671	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@babel%2fruntime","integrity":null,"time":1704273954141,"size":"262","metadata":{"time":1704273954141,"url":"https://registry.npm.taobao.org/@babel%2fruntime","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/@babel%2fruntime"},"options":{"compress":true},"status":301}}

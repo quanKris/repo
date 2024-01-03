@@ -1,2 +1,0 @@
-
-de6c760845f65da8699b11c7b95dfba02ecd1e3f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/node-libs-browser","integrity":null,"time":1704273954372,"size":"262","metadata":{"time":1704273954372,"url":"https://registry.npm.taobao.org/node-libs-browser","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/node-libs-browser"},"options":{"compress":true},"status":301}}

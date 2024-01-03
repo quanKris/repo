@@ -1,2 +1,0 @@
-
-8153c28c669f1efc7768dc4af083e02e005f31dc	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/pako","integrity":null,"time":1704273994700,"size":"262","metadata":{"time":1704273994700,"url":"https://registry.npm.taobao.org/pako","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:34 GMT","location":"https://registry.npmmirror.com/pako"},"options":{"compress":true},"status":301}}

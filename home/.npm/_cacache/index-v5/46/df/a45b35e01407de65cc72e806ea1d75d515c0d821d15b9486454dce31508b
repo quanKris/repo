@@ -1,2 +1,0 @@
-
-8e9fc6d4f99f43d7337d3f5676bfce4b09edbd36	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/urix","integrity":null,"time":1704273979122,"size":"262","metadata":{"time":1704273979122,"url":"https://registry.npm.taobao.org/urix","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:19 GMT","location":"https://registry.npmmirror.com/urix"},"options":{"compress":true},"status":301}}

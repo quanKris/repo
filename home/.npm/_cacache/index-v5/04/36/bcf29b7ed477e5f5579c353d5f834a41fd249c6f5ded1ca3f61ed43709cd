@@ -1,2 +1,0 @@
-
-9679bc9cc6202c3d747477028ebb3b5d8950a01b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/event-target-shim","integrity":null,"time":1704273990796,"size":"262","metadata":{"time":1704273990796,"url":"https://registry.npm.taobao.org/event-target-shim","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:30 GMT","location":"https://registry.npmmirror.com/event-target-shim"},"options":{"compress":true},"status":301}}

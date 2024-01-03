@@ -1,2 +1,0 @@
-
-a088d7307e9e8e1be45c2ba7b1732eef97a31511	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/glob-to-regexp","integrity":null,"time":1704273969576,"size":"262","metadata":{"time":1704273969576,"url":"https://registry.npm.taobao.org/glob-to-regexp","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:09 GMT","location":"https://registry.npmmirror.com/glob-to-regexp"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-1f2706c111968678c39e6ba1dd766a1491cd917f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/docsearch.js","integrity":null,"time":1704273952015,"size":"262","metadata":{"time":1704273952015,"url":"https://registry.npm.taobao.org/docsearch.js","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/docsearch.js"},"options":{"compress":true},"status":301}}

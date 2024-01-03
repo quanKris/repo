@@ -1,2 +1,0 @@
-
-a1371eb61091135fe6c038c26929b8f37740871f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/convert-source-map","integrity":null,"time":1704273954072,"size":"262","metadata":{"time":1704273954072,"url":"https://registry.npm.taobao.org/convert-source-map","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/convert-source-map"},"options":{"compress":true},"status":301}}

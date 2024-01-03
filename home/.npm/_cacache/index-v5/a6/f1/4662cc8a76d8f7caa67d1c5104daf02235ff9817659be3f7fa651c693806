@@ -1,2 +1,0 @@
-
-f0321b8a4617fe9b19dfe03d8f33baf39aafe4d9	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esbuild-windows-64","integrity":null,"time":1704273954470,"size":"262","metadata":{"time":1704273954470,"url":"https://registry.npm.taobao.org/esbuild-windows-64","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/esbuild-windows-64"},"options":{"compress":true},"status":301}}

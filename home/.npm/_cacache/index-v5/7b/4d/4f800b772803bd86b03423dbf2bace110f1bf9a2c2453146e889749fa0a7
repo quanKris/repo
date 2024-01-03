@@ -1,2 +1,0 @@
-
-2fbb1ebe2f54fdcc2be49e21a6791ad7181da60e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/dns-txt","integrity":null,"time":1704273996052,"size":"262","metadata":{"time":1704273996052,"url":"https://registry.npm.taobao.org/dns-txt","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:36 GMT","location":"https://registry.npmmirror.com/dns-txt"},"options":{"compress":true},"status":301}}

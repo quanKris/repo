@@ -1,2 +1,0 @@
-
-b3c00a53f46554698a3f71d4a0fc83b17997731f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/json-stringify-safe","integrity":null,"time":1704273966859,"size":"262","metadata":{"time":1704273966859,"url":"https://registry.npm.taobao.org/json-stringify-safe","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/json-stringify-safe"},"options":{"compress":true},"status":301}}

@@ -1,2 +1,0 @@
-
-dbffc77d7e325762c11a82d0ea4ee925070a9079	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/gensync","integrity":null,"time":1704273954064,"size":"262","metadata":{"time":1704273954064,"url":"https://registry.npm.taobao.org/gensync","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/gensync"},"options":{"compress":true},"status":301}}

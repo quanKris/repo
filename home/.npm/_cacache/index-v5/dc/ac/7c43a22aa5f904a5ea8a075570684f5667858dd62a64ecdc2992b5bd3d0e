@@ -1,2 +1,0 @@
-
-390f5ece16931da0647cc9a846efc9fe6db1bd16	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/caniuse-api","integrity":null,"time":1704273974926,"size":"262","metadata":{"time":1704273974926,"url":"https://registry.npm.taobao.org/caniuse-api","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:14 GMT","location":"https://registry.npmmirror.com/caniuse-api"},"options":{"compress":true},"status":301}}

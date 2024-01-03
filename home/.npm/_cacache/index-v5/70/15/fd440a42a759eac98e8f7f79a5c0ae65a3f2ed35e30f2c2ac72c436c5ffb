@@ -1,2 +1,0 @@
-
-2ce3beae401aa0ef15ec91d167056a4666b1007a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@vuepress-reco%2fcore","integrity":null,"time":1704273952106,"size":"262","metadata":{"time":1704273952106,"url":"https://registry.npm.taobao.org/@vuepress-reco%2fcore","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/@vuepress-reco%2fcore"},"options":{"compress":true},"status":301}}

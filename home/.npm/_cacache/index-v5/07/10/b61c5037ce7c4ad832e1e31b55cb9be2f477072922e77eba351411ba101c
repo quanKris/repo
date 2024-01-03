@@ -1,2 +1,0 @@
-
-f3a4295e9f3c5a1f95595ccd373a44cb67dde87f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/imurmurhash","integrity":null,"time":1704273972810,"size":"262","metadata":{"time":1704273972810,"url":"https://registry.npm.taobao.org/imurmurhash","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:12 GMT","location":"https://registry.npmmirror.com/imurmurhash"},"options":{"compress":true},"status":301}}
