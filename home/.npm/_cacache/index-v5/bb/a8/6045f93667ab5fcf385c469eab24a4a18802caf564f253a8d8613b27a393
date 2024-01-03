@@ -1,0 +1,2 @@
+
+3256f39f416c4bfe06c8f1b43bbfdaf1feaea077	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/svgo","integrity":null,"time":1704273974923,"size":"262","metadata":{"time":1704273974923,"url":"https://registry.npm.taobao.org/svgo","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:14 GMT","location":"https://registry.npmmirror.com/svgo"},"options":{"compress":true},"status":301}}

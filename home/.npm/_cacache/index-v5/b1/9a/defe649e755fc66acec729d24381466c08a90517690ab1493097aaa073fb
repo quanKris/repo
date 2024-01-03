@@ -1,0 +1,2 @@
+
+b50a09e2948af9bacca5a816c3c97ae4b670f2d8	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/@ampproject%2fremapping","integrity":null,"time":1704273954066,"size":"262","metadata":{"time":1704273954066,"url":"https://registry.npm.taobao.org/@ampproject%2fremapping","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/@ampproject%2fremapping"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+23295ee1014e3fdd1e27548953a1a5e2c721061d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-buffer","integrity":null,"time":1704273970258,"size":"262","metadata":{"time":1704273970258,"url":"https://registry.npm.taobao.org/is-buffer","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:10 GMT","location":"https://registry.npmmirror.com/is-buffer"},"options":{"compress":true},"status":301}}

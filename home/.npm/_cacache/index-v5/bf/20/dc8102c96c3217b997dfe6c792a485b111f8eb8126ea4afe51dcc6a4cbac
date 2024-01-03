@@ -1,0 +1,2 @@
+
+56fa70b85b800f683a5a5b565ef665d345f3c94b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/arr-diff","integrity":null,"time":1704273969574,"size":"262","metadata":{"time":1704273969574,"url":"https://registry.npm.taobao.org/arr-diff","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:09 GMT","location":"https://registry.npmmirror.com/arr-diff"},"options":{"compress":true},"status":301}}

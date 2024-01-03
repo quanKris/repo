@@ -1,0 +1,2 @@
+
+5f3bf08ca1540c073f1b0eed55168a933c4101eb	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/miniprogram-api-typings","integrity":null,"time":1704273990795,"size":"262","metadata":{"time":1704273990795,"url":"https://registry.npm.taobao.org/miniprogram-api-typings","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:30 GMT","location":"https://registry.npmmirror.com/miniprogram-api-typings"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+6e2ab34a45a89446bb53cf8d2c0260a675ac7983	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/pumpify","integrity":null,"time":1704273966216,"size":"262","metadata":{"time":1704273966216,"url":"https://registry.npm.taobao.org/pumpify","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/pumpify"},"options":{"compress":true},"status":301}}

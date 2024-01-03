@@ -1,0 +1,2 @@
+
+34632a9a8389c4891f94f53c19b9749bfb16ecb7	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/memory-fs","integrity":null,"time":1704273954363,"size":"262","metadata":{"time":1704273954363,"url":"https://registry.npm.taobao.org/memory-fs","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/memory-fs"},"options":{"compress":true},"status":301}}

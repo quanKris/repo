@@ -1,0 +1,2 @@
+
+fb8e6ad10101d82b22079293d8ebdff768e10784	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/mdn-data","integrity":null,"time":1704273980206,"size":"262","metadata":{"time":1704273980206,"url":"https://registry.npm.taobao.org/mdn-data","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/mdn-data"},"options":{"compress":true},"status":301}}

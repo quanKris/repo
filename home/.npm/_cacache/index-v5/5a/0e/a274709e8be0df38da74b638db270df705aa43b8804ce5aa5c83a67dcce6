@@ -1,0 +1,2 @@
+
+1467550dbd351b9a0336a1b6d4d5e67f14f50503	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/webpackbar","integrity":null,"time":1704273952978,"size":"262","metadata":{"time":1704273952978,"url":"https://registry.npm.taobao.org/webpackbar","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/webpackbar"},"options":{"compress":true},"status":301}}

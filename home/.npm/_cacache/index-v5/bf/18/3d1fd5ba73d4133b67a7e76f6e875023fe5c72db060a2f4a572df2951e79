@@ -1,0 +1,2 @@
+
+4741a88d3e12d3a2091c2dd00aa0f404869d62a9	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/arr-union","integrity":null,"time":1704273979308,"size":"262","metadata":{"time":1704273979308,"url":"https://registry.npm.taobao.org/arr-union","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:19 GMT","location":"https://registry.npmmirror.com/arr-union"},"options":{"compress":true},"status":301}}

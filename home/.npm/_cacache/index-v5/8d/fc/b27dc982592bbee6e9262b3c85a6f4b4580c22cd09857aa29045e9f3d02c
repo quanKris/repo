@@ -1,0 +1,2 @@
+
+eb861d488937a2ecafb9e27f49a4eb60da14994f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/safe-regex-test","integrity":null,"time":1704273980803,"size":"262","metadata":{"time":1704273980803,"url":"https://registry.npm.taobao.org/safe-regex-test","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/safe-regex-test"},"options":{"compress":true},"status":301}}

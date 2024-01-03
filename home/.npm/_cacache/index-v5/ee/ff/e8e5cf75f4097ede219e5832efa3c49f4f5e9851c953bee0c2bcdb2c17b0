@@ -1,0 +1,2 @@
+
+e6ce06df70233f25766df97e09bb1c9caae29168	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/prettier","integrity":null,"time":1704273984505,"size":"262","metadata":{"time":1704273984505,"url":"https://registry.npm.taobao.org/prettier","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:24 GMT","location":"https://registry.npmmirror.com/prettier"},"options":{"compress":true},"status":301}}

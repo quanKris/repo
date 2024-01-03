@@ -1,0 +1,2 @@
+
+b4ee3f2b81ca98037b3a1553397f16bbf052450e	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/assign-symbols","integrity":null,"time":1704273970581,"size":"262","metadata":{"time":1704273970581,"url":"https://registry.npm.taobao.org/assign-symbols","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:10 GMT","location":"https://registry.npmmirror.com/assign-symbols"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+b87c65193ae0901559980a70bbd9d9ce1d780535	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/consola","integrity":null,"time":1704273954950,"size":"262","metadata":{"time":1704273954950,"url":"https://registry.npm.taobao.org/consola","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/consola"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+3f84f7f374ce3b54fa41c184c32b70db7f7c87c4	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/extend-shallow","integrity":null,"time":1704273964818,"size":"262","metadata":{"time":1704273964818,"url":"https://registry.npm.taobao.org/extend-shallow","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:04 GMT","location":"https://registry.npmmirror.com/extend-shallow"},"options":{"compress":true},"status":301}}

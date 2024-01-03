@@ -1,0 +1,2 @@
+
+329dec1f7296b71889632b49d99a365e7e2d33b1	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/autocomplete.js","integrity":null,"time":1704273961585,"size":"262","metadata":{"time":1704273961585,"url":"https://registry.npm.taobao.org/autocomplete.js","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:01 GMT","location":"https://registry.npmmirror.com/autocomplete.js"},"options":{"compress":true},"status":301}}

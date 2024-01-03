@@ -1,0 +1,2 @@
+
+00678ea536087492ad27649350748edfc6d59b8a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/striptags","integrity":null,"time":1704273989449,"size":"262","metadata":{"time":1704273989449,"url":"https://registry.npm.taobao.org/striptags","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:29 GMT","location":"https://registry.npmmirror.com/striptags"},"options":{"compress":true},"status":301}}

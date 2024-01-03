@@ -1,0 +1,2 @@
+
+67a696c120c57b11aac9b3c8a27274089f7332d3	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-windows","integrity":null,"time":1704273970582,"size":"262","metadata":{"time":1704273970582,"url":"https://registry.npm.taobao.org/is-windows","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:10 GMT","location":"https://registry.npmmirror.com/is-windows"},"options":{"compress":true},"status":301}}

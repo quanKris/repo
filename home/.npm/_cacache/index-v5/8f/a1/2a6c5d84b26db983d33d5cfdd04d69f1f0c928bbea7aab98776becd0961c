@@ -1,0 +1,2 @@
+
+41a02bfd2263f9fe33f9bbbf922b3a4a8f8f765f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/iconv-lite","integrity":null,"time":1704273997465,"size":"262","metadata":{"time":1704273997465,"url":"https://registry.npm.taobao.org/iconv-lite","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:37 GMT","location":"https://registry.npmmirror.com/iconv-lite"},"options":{"compress":true},"status":301}}

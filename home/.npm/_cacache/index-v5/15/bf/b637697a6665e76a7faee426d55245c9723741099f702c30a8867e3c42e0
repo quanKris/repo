@@ -1,0 +1,2 @@
+
+98d4935edbfa1a0bbbf071687bfef4dc9af81a46	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/has-bigints","integrity":null,"time":1704273981012,"size":"262","metadata":{"time":1704273981012,"url":"https://registry.npm.taobao.org/has-bigints","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:21 GMT","location":"https://registry.npmmirror.com/has-bigints"},"options":{"compress":true},"status":301}}

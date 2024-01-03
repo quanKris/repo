@@ -1,0 +1,2 @@
+
+af167084b821571dad7ea3fece0f60b5b8b86792	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/dot-prop","integrity":null,"time":1704273977154,"size":"262","metadata":{"time":1704273977154,"url":"https://registry.npm.taobao.org/dot-prop","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:17 GMT","location":"https://registry.npmmirror.com/dot-prop"},"options":{"compress":true},"status":301}}

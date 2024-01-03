@@ -1,0 +1,2 @@
+
+d90aa4b801917b8f551a614bac30f25dd6ef72b2	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/iferr","integrity":null,"time":1704273972811,"size":"262","metadata":{"time":1704273972811,"url":"https://registry.npm.taobao.org/iferr","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:12 GMT","location":"https://registry.npmmirror.com/iferr"},"options":{"compress":true},"status":301}}

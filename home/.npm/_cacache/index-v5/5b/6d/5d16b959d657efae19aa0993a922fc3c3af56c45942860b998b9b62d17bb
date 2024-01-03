@@ -1,0 +1,2 @@
+
+ae8aac43e6168aae2fee26b17612f4b5f1d559fe	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-date-object","integrity":null,"time":1704273981010,"size":"262","metadata":{"time":1704273981010,"url":"https://registry.npm.taobao.org/is-date-object","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:21 GMT","location":"https://registry.npmmirror.com/is-date-object"},"options":{"compress":true},"status":301}}

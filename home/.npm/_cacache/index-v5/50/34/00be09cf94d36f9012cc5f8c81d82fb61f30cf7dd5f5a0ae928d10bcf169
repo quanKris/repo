@@ -1,0 +1,2 @@
+
+3a8207c85248260c10abf695f74a9c7044a28851	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/p-cancelable","integrity":null,"time":1704273982374,"size":"262","metadata":{"time":1704273982374,"url":"https://registry.npm.taobao.org/p-cancelable","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:22 GMT","location":"https://registry.npmmirror.com/p-cancelable"},"options":{"compress":true},"status":301}}

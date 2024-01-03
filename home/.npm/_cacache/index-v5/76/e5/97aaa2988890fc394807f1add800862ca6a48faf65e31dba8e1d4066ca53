@@ -1,0 +1,2 @@
+
+eddde124293081be1ffb918e6bc0baacb805ab26	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/simple-swizzle","integrity":null,"time":1704273976534,"size":"262","metadata":{"time":1704273976534,"url":"https://registry.npm.taobao.org/simple-swizzle","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:16 GMT","location":"https://registry.npmmirror.com/simple-swizzle"},"options":{"compress":true},"status":301}}

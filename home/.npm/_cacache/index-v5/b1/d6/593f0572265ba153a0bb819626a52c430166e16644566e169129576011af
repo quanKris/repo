@@ -1,0 +1,2 @@
+
+4cbf7e620e6b2ef075aae692e48c21b33f03e21d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/glob-parent","integrity":null,"time":1704273954514,"size":"262","metadata":{"time":1704273954514,"url":"https://registry.npm.taobao.org/glob-parent","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/glob-parent"},"options":{"compress":true},"status":301}}

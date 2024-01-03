@@ -1,0 +1,2 @@
+
+d7710737daaffa8892d62ae2b8bbc3c51a3d652f	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/merge-source-map","integrity":null,"time":1704273984830,"size":"262","metadata":{"time":1704273984830,"url":"https://registry.npm.taobao.org/merge-source-map","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:24 GMT","location":"https://registry.npmmirror.com/merge-source-map"},"options":{"compress":true},"status":301}}

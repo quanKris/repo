@@ -1,0 +1,2 @@
+
+e35a62d574d2a2ecb67cebe4161df75dfa6a0a10	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esutils","integrity":null,"time":1704273959398,"size":"262","metadata":{"time":1704273959398,"url":"https://registry.npm.taobao.org/esutils","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:59 GMT","location":"https://registry.npmmirror.com/esutils"},"options":{"compress":true},"status":301}}

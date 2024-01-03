@@ -1,0 +1,2 @@
+
+7237176f922dc8a1c7a31539b1963bc340108eda	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/querystring-es3","integrity":null,"time":1704273966770,"size":"262","metadata":{"time":1704273966770,"url":"https://registry.npm.taobao.org/querystring-es3","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/querystring-es3"},"options":{"compress":true},"status":301}}

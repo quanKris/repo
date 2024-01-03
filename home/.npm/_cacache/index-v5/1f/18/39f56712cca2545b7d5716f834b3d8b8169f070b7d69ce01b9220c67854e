@@ -1,0 +1,2 @@
+
+2f2cfbc61e9136c1121315a19a0728ec1b91cb89	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esrecurse","integrity":null,"time":1704273993561,"size":"262","metadata":{"time":1704273993561,"url":"https://registry.npm.taobao.org/esrecurse","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:33 GMT","location":"https://registry.npmmirror.com/esrecurse"},"options":{"compress":true},"status":301}}

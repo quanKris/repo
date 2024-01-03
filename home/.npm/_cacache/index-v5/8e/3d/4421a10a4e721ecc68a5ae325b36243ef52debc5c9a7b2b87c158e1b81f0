@@ -1,0 +1,2 @@
+
+522960cda5d5630581ed66a2aa96a24223003b19	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-bigint","integrity":null,"time":1704273981191,"size":"262","metadata":{"time":1704273981191,"url":"https://registry.npm.taobao.org/is-bigint","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:21 GMT","location":"https://registry.npmmirror.com/is-bigint"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+f032d1d4e14fe8a610eee7d9c888de97495ec32b	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-binary-path","integrity":null,"time":1704273954523,"size":"262","metadata":{"time":1704273954523,"url":"https://registry.npm.taobao.org/is-binary-path","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/is-binary-path"},"options":{"compress":true},"status":301}}

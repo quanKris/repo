@@ -1,0 +1,2 @@
+
+c4dd0d4aa6160c01dcc0a3f4bd1e5c47b9f754ac	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/inflight","integrity":null,"time":1704273966212,"size":"262","metadata":{"time":1704273966212,"url":"https://registry.npm.taobao.org/inflight","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/inflight"},"options":{"compress":true},"status":301}}

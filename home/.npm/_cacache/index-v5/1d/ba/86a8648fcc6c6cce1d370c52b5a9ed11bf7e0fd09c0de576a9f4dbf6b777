@@ -1,0 +1,2 @@
+
+2f5866b5588aec1e8dcf376cf8879494f90b5545	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/async-limiter","integrity":null,"time":1704273991808,"size":"262","metadata":{"time":1704273991808,"url":"https://registry.npm.taobao.org/async-limiter","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:31 GMT","location":"https://registry.npmmirror.com/async-limiter"},"options":{"compress":true},"status":301}}

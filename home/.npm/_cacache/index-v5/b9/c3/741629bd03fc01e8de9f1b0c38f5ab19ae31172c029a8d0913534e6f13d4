@@ -1,0 +1,2 @@
+
+f65acc3028b47c1a7af2d6b937743681f1653183	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/caller-callsite","integrity":null,"time":1704273975285,"size":"262","metadata":{"time":1704273975285,"url":"https://registry.npm.taobao.org/caller-callsite","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:15 GMT","location":"https://registry.npmmirror.com/caller-callsite"},"options":{"compress":true},"status":301}}

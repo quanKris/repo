@@ -1,0 +1,2 @@
+
+0859678d7418d966483729eb98adbf20608412c5	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/typed-array-buffer","integrity":null,"time":1704273980805,"size":"262","metadata":{"time":1704273980805,"url":"https://registry.npm.taobao.org/typed-array-buffer","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/typed-array-buffer"},"options":{"compress":true},"status":301}}

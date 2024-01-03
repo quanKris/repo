@@ -1,0 +1,2 @@
+
+9a519c198c11bf8a1ec29dea40dfc97003a10345	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esbuild-linux-mips64le","integrity":null,"time":1704273954465,"size":"262","metadata":{"time":1704273954464,"url":"https://registry.npm.taobao.org/esbuild-linux-mips64le","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/esbuild-linux-mips64le"},"options":{"compress":true},"status":301}}

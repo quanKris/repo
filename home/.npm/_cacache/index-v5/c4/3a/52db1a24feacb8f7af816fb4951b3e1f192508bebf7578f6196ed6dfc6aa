@@ -1,0 +1,2 @@
+
+1afd5bfa3e840b7ad3e1021f68b1414b4b309e67	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esbuild-linux-arm","integrity":null,"time":1704273954439,"size":"262","metadata":{"time":1704273954439,"url":"https://registry.npm.taobao.org/esbuild-linux-arm","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/esbuild-linux-arm"},"options":{"compress":true},"status":301}}

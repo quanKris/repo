@@ -1,0 +1,2 @@
+
+73e4b1a1f1ee4e5a955a69cde992ecf52b4fd3c6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/deepmerge","integrity":null,"time":1704273954806,"size":"262","metadata":{"time":1704273954806,"url":"https://registry.npm.taobao.org/deepmerge","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/deepmerge"},"options":{"compress":true},"status":301}}

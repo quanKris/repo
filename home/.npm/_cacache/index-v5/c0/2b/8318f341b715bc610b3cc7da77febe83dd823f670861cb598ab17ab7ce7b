@@ -1,0 +1,2 @@
+
+0a934000eb6be73c01fd5760c26a484d4ea14d03	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/dezalgo","integrity":null,"time":1704273999529,"size":"262","metadata":{"time":1704273999529,"url":"https://registry.npm.taobao.org/dezalgo","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:39 GMT","location":"https://registry.npmmirror.com/dezalgo"},"options":{"compress":true},"status":301}}

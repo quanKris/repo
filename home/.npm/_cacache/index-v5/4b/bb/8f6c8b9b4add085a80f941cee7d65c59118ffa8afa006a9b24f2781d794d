@@ -1,0 +1,2 @@
+
+bf7162e007350b86dcac74d3fd686b9d07272106	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/last-call-webpack-plugin","integrity":null,"time":1704273954673,"size":"262","metadata":{"time":1704273954673,"url":"https://registry.npm.taobao.org/last-call-webpack-plugin","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/last-call-webpack-plugin"},"options":{"compress":true},"status":301}}

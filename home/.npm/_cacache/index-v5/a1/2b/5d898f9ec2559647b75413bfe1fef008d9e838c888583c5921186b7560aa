@@ -1,0 +1,2 @@
+
+a60868406ef0401ec8d2e847f8b73c6e61e2ff58	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/prismjs","integrity":null,"time":1704273954212,"size":"262","metadata":{"time":1704273954212,"url":"https://registry.npm.taobao.org/prismjs","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/prismjs"},"options":{"compress":true},"status":301}}

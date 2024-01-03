@@ -1,0 +1,2 @@
+
+a49d6fe4676e058e68c70f5241c908ca8ca432a0	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/esbuild-linux-ppc64le","integrity":null,"time":1704273954456,"size":"262","metadata":{"time":1704273954456,"url":"https://registry.npm.taobao.org/esbuild-linux-ppc64le","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/esbuild-linux-ppc64le"},"options":{"compress":true},"status":301}}

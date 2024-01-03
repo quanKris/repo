@@ -1,0 +1,2 @@
+
+d9796f367c0f3171a7ac731ce4d8d5b7183f4698	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/formidable","integrity":null,"time":1704273990357,"size":"262","metadata":{"time":1704273990357,"url":"https://registry.npm.taobao.org/formidable","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:30 GMT","location":"https://registry.npmmirror.com/formidable"},"options":{"compress":true},"status":301}}

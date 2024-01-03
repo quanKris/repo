@@ -1,0 +1,2 @@
+
+f0713aa954565e87da43769b9f8fc24f7467bd36	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/yargs","integrity":null,"time":1704273954954,"size":"262","metadata":{"time":1704273954954,"url":"https://registry.npm.taobao.org/yargs","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/yargs"},"options":{"compress":true},"status":301}}

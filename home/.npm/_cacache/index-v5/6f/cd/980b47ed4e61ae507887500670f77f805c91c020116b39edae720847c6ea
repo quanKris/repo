@@ -1,0 +1,2 @@
+
+332752b7b690a92550dd67cc71f126d8f8702a65	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/es-to-primitive","integrity":null,"time":1704273980732,"size":"262","metadata":{"time":1704273980732,"url":"https://registry.npm.taobao.org/es-to-primitive","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/es-to-primitive"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+2fc75327c3c7a360472276c27e0c9e895cd6b353	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-yarn-global","integrity":null,"time":1704273953052,"size":"262","metadata":{"time":1704273953052,"url":"https://registry.npm.taobao.org/is-yarn-global","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:53 GMT","location":"https://registry.npmmirror.com/is-yarn-global"},"options":{"compress":true},"status":301}}

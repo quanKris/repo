@@ -1,0 +1,2 @@
+
+db9ab726b4f64ff5bde8b04ddcbce10b8047897c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/hpack.js","integrity":null,"time":1704273998649,"size":"262","metadata":{"time":1704273998649,"url":"https://registry.npm.taobao.org/hpack.js","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:38 GMT","location":"https://registry.npmmirror.com/hpack.js"},"options":{"compress":true},"status":301}}

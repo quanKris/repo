@@ -1,0 +1,2 @@
+
+2e266e1d07e95b90949f3d1e2f92311bcf17ff45	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/asn1.js","integrity":null,"time":1704273995512,"size":"262","metadata":{"time":1704273995512,"url":"https://registry.npm.taobao.org/asn1.js","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:35 GMT","location":"https://registry.npmmirror.com/asn1.js"},"options":{"compress":true},"status":301}}

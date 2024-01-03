@@ -1,0 +1,2 @@
+
+00d197f8f88527cf1bc8eec9a43d25f5725b3d41	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/fast-glob","integrity":null,"time":1704273961143,"size":"262","metadata":{"time":1704273961143,"url":"https://registry.npm.taobao.org/fast-glob","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:01 GMT","location":"https://registry.npmmirror.com/fast-glob"},"options":{"compress":true},"status":301}}

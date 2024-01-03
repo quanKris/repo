@@ -1,0 +1,2 @@
+
+ad913300cac50733e2e84e2c23b53c6c7d86c86a	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/multicast-dns","integrity":null,"time":1704273996052,"size":"262","metadata":{"time":1704273996052,"url":"https://registry.npm.taobao.org/multicast-dns","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:36 GMT","location":"https://registry.npmmirror.com/multicast-dns"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+564bcf1fcc53268777ffb18d1932b44d3d23638c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/cssnano-preset-default","integrity":null,"time":1704273973448,"size":"262","metadata":{"time":1704273973448,"url":"https://registry.npm.taobao.org/cssnano-preset-default","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:13 GMT","location":"https://registry.npmmirror.com/cssnano-preset-default"},"options":{"compress":true},"status":301}}

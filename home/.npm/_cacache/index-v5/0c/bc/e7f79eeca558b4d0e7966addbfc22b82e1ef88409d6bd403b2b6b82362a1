@@ -1,0 +1,2 @@
+
+0fce480285d1f8e8c503ff7e5e0b1d9f636fda95	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/webpack-dev-middleware","integrity":null,"time":1704273954946,"size":"262","metadata":{"time":1704273954946,"url":"https://registry.npm.taobao.org/webpack-dev-middleware","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:54 GMT","location":"https://registry.npmmirror.com/webpack-dev-middleware"},"options":{"compress":true},"status":301}}

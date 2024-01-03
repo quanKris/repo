@@ -1,0 +1,2 @@
+
+8f4bdb45098785ab3c741a0d3c878aa5f12eec3c	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-accessor-descriptor","integrity":null,"time":1704273970923,"size":"262","metadata":{"time":1704273970923,"url":"https://registry.npm.taobao.org/is-accessor-descriptor","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:10 GMT","location":"https://registry.npmmirror.com/is-accessor-descriptor"},"options":{"compress":true},"status":301}}

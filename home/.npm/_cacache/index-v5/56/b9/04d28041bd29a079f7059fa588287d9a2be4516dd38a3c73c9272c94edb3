@@ -1,0 +1,2 @@
+
+8c7c958a22132e86b2a7c5ce5e9f955085ac13ac	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/typed-array-byte-offset","integrity":null,"time":1704273980806,"size":"262","metadata":{"time":1704273980806,"url":"https://registry.npm.taobao.org/typed-array-byte-offset","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:20 GMT","location":"https://registry.npmmirror.com/typed-array-byte-offset"},"options":{"compress":true},"status":301}}

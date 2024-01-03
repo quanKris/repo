@@ -1,0 +1,2 @@
+
+03057388cf88bf36cef51d87b0f1b71bf2eaa282	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/har-validator","integrity":null,"time":1704273966842,"size":"262","metadata":{"time":1704273966842,"url":"https://registry.npm.taobao.org/har-validator","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:06 GMT","location":"https://registry.npmmirror.com/har-validator"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+22afc2fe130d6854427efd2d6dfb89bd6a470aa6	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/merge-descriptors","integrity":null,"time":1704273996135,"size":"262","metadata":{"time":1704273996135,"url":"https://registry.npm.taobao.org/merge-descriptors","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:36 GMT","location":"https://registry.npmmirror.com/merge-descriptors"},"options":{"compress":true},"status":301}}

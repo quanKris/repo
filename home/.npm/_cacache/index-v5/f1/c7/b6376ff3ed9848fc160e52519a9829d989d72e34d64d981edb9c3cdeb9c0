@@ -1,0 +1,2 @@
+
+545f87a8670eb1a0f73bfc9e91b709ad77c50ff0	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/ascli","integrity":null,"time":1704273990796,"size":"262","metadata":{"time":1704273990795,"url":"https://registry.npm.taobao.org/ascli","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:30 GMT","location":"https://registry.npmmirror.com/ascli"},"options":{"compress":true},"status":301}}

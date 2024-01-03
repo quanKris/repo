@@ -1,0 +1,2 @@
+
+fe3cb5bb65fbab3acb822863220971ef314cda5d	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/update-notifier","integrity":null,"time":1704273952105,"size":"262","metadata":{"time":1704273952105,"url":"https://registry.npm.taobao.org/update-notifier","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:25:52 GMT","location":"https://registry.npmmirror.com/update-notifier"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+dbc0d48245ecc5ca3101cbfd348c2f2177eec6bc	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/balajs","integrity":null,"time":1704273988032,"size":"262","metadata":{"time":1704273988032,"url":"https://registry.npm.taobao.org/balajs","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:28 GMT","location":"https://registry.npmmirror.com/balajs"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+c3974c7fc24694cfa143b57de0b7e79312e337c2	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/mixin-deep","integrity":null,"time":1704273979121,"size":"262","metadata":{"time":1704273979121,"url":"https://registry.npm.taobao.org/mixin-deep","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:19 GMT","location":"https://registry.npmmirror.com/mixin-deep"},"options":{"compress":true},"status":301}}

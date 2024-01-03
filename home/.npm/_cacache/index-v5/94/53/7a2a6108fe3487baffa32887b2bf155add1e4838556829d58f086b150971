@@ -1,0 +1,2 @@
+
+907f79be0f41e2cded335cceccf8a76ae4e12183	{"key":"make-fetch-happen:request-cache:https://registry.npm.taobao.org/is-resolvable","integrity":null,"time":1704273973449,"size":"262","metadata":{"time":1704273973449,"url":"https://registry.npm.taobao.org/is-resolvable","reqHeaders":{"accept":"application/vnd.npm.install-v1+json; q=1.0, application/json; q=0.8, */*"},"resHeaders":{"content-type":"text/html","date":"Wed, 03 Jan 2024 09:26:13 GMT","location":"https://registry.npmmirror.com/is-resolvable"},"options":{"compress":true},"status":301}}
