@@ -54,19 +54,20 @@ jobs:
       - name: Display Contents
         run: ls -R
         
-      - name: Deploy
-        # 因为构建之后，需要把代码上传到服务器上，所以需要连接到ssh，并且做一个拷贝操作
-        uses: cross-the-world/scp-pipeline@master
+      - name: scp ssh pipelines
+        uses: cross-the-world/ssh-scp-ssh-pipelines@latest
         env:
-          WELCOME: "ssh scp ssh pipelines"
           LASTSSH: "Doing something after copying"
         with:
-          host: '43.142.54.214'
+          host: ${{ secrets.SERVER_IP }}
           user: 'Administrator'
-          pass: 'FY45erhaha##'
-          connect_timeout: 10s
-          local: './dist/*'
-          remote: /nginx-1.25.3/html
+          pass: ${{ secrets.SERVER_PASSWORD }}
+          scp: |
+            ./dist/* => /usr/share/nginx/visual-editor/dist
+          last_ssh: |
+            echo $LASTSSH 
+            nginx -t
+            nginx -s reload
 
       # Add your subsequent steps here
 
