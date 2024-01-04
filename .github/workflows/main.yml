@@ -52,4 +52,4 @@ jobs:
         # 要使用的构建命令
         BUILD_SCRIPT: npm install --registry=https://registry.npm.taobao.org && npm run build # 下载依赖 打包项目
         # 构建结果存储目录，dist里面会有index.html，如果没有这个文件，显示不了，可在本地构建后去校验
-        BUILD_DIR: ./
+        BUILD_DIR: .
