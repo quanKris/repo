@@ -65,7 +65,7 @@ jobs:
           scp: |
             ./dist.tgz => /nginx-1.25.3/html
           last_ssh: |
-            cd C:\nginx-1.25.3\html\
+            cd C:/nginx-1.25.3/html/
             tar -xf dist.tgz
             # 如果需要删除压缩文件，可以添加以下命令
             del dist.tgz
