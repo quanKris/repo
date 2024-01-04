@@ -4,7 +4,7 @@
   "author": "reco_luan",
   "scripts": {
     "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build .",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build .",
     "dep":"node deploy.js"
   },
   "devDependencies": {
