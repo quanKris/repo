@@ -45,6 +45,7 @@ git rebase  把自己当前分支提前到
 
 git branch -a 查看所有分支
 git branch -d dev  删除本地dev分支
+git branch -M main  Git会将默认分支重命名为”main”, 如果之前没有名为”main”的分支，将创建该分支
 
 本地仓库推到github上仓库的全过程
 git init
