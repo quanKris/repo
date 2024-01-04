@@ -91,7 +91,7 @@ jobs:
 
 ## Github秘钥配置
 
-${{ secrets.SERVER_IP }}
+secrets.SERVER_IP
 采用大写形式，在github中如下位置进行配置字段，yml流中自由取用。
 
 ![](D:\phpstudy_pro\WWW\repo\.vuepress\public\secrets.png)
