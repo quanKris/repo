@@ -63,7 +63,7 @@ jobs:
           user: 'Administrator'
           pass: ${{ secrets.SERVER_PASSWORD }}
           scp: |
-            ./dist/* => /usr/share/nginx/visual-editor/dist
+            ./dist/* => /nginx-1.25.3/html
           last_ssh: |
             echo $LASTSSH 
             nginx -t
