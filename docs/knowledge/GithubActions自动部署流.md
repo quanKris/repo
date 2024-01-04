@@ -34,7 +34,7 @@ C:\Program Files\Git\etc\ssh\sshd_config  文件，git外部登录选项放开
 
 项目根目录初始化github的workflow流
 
-![github](http://106.55.199.237/workflow/github.png)
+![github](http://43.142.54.214/workflow/github.png)
 
 
 
@@ -92,7 +92,7 @@ jobs:
 secrets.SERVER_IP
 采用大写形式，在github中如下位置进行配置字段，yml流中自由取用。
 
-![secrets](http://106.55.199.237/workflow/secrets.png)
+![secrets](http://43.142.54.214/workflow/secrets.png)
 
 
 
@@ -106,4 +106,4 @@ secrets.SERVER_IP
  "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build ."
 ```
 
-![workflow](http://106.55.199.237/workflow/workflow.png)
+![workflow](http://43.142.54.214/workflow/workflow.png)
