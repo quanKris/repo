@@ -49,7 +49,7 @@ jobs:
       - run: npm run build
 
       - name: Package Dist
-        run: tar -zcvf release.tgz -C $GITHUB_WORKSPACE/dist .
+        run: tar -zcvf dist.tgz -C $GITHUB_WORKSPACE/dist .
 
       - name: Display Contents
         run: ls -R
@@ -63,11 +63,12 @@ jobs:
           user: 'Administrator'
           pass: ${{ secrets.SERVER_PASSWORD }}
           scp: |
-            ./dist => /nginx-1.25.3/html/dist
-          # last_ssh: |
-          #   echo $LASTSSH 
-          #   nginx -t
-          #   nginx -s reload
+            ./dist.tgz => /nginx-1.25.3/html
+          last_ssh: |
+            cd /nginx-1.25.3/html/
+            tar zxvf dist.tgz
+            # 如果需要删除压缩文件，可以添加以下命令
+            rm dist.tgz
 
       # Add your subsequent steps here
 
