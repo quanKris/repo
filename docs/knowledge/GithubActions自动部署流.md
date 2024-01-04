@@ -52,18 +52,18 @@ on:
 
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest  //windows-2019可选，某些配置需要变
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@master
 
       - name: Build
         uses: actions/setup-node@master
-      - run: npm install --registry=https://registry.npm.taobao.org //随项目走，不同项目可用不同镜像
+      - run: npm install --registry=https://registry.npm.taobao.org
       - run: npm run build
 
       - name: Package Dist
-        run: tar -zcvf release.tgz -C $GITHUB_WORKSPACE/dist . //打包
+        run: tar -zcvf dist.tgz -C $GITHUB_WORKSPACE/dist .
 
       - name: Display Contents
         run: ls -R
@@ -73,16 +73,19 @@ jobs:
         env:
           LASTSSH: "Doing something after copying"
         with:
-          host: ${{ secrets.SERVER_IP }} 
+          host: ${{ secrets.SERVER_IP }}
           user: 'Administrator'
           pass: ${{ secrets.SERVER_PASSWORD }}
           scp: |
-            ./dist/* => /nginx-1.25.3/html/dist
+            ./dist.tgz => /nginx-1.25.3/html/dist
+          last_ssh: |   #  注意此处为windows操作语言
+            cd C:/nginx-1.25.3/html/dist
+            tar -xf dist.tgz
+            del dist.tgz
           # last_ssh: |
           #   echo $LASTSSH 
           #   nginx -t
           #   nginx -s reload
-
       # Add your subsequent steps here
 
 ```

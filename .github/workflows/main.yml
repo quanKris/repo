@@ -68,7 +68,10 @@ jobs:
             cd C:/nginx-1.25.3/html/dist
             tar -xf dist.tgz
             del dist.tgz
-
+          # last_ssh: |
+          #   echo $LASTSSH 
+          #   nginx -t
+          #   nginx -s reload
       # Add your subsequent steps here
 
 
