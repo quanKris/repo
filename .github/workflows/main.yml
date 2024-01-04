@@ -30,6 +30,7 @@
 #           BRANCH: main
 #           FOLDER: /dist
 name: Static Blog
+
 on:
   push:
     branches:
@@ -39,51 +40,20 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      # 下载源码
       - name: Checkout
         uses: actions/checkout@master
 
-      # 打包构建
       - name: Build
         uses: actions/setup-node@master
       - run: npm install --registry=https://registry.npm.taobao.org
       - run: npm run build
-      - run: tar -zcvf release.tgz dist
 
-      # 发布 Release
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        with:
-          tag_name: ${{ github.sha }}
-          release_name: Release ${{ github.sha }}
-          draft: false
-          prerelease: false
+      - name: Package Dist
+        run: tar -zcvf release.tgz -C $GITHUB_WORKSPACE/dist .
 
-      # 上传构建结果到 Release
-      - name: Upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./release.tgz
-          asset_name: release.tgz
-          asset_content_type: application/x-tgz
+      - name: Display Contents
+        run: ls -R
 
-      # 部署到服务器
-      - name: Deploy
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          username: 'Administrator'
-          password: ${{ secrets.SERVER_PASSWORD }}
-          port: '22'
-          script: |
-            cd /nginx-1.25.3/html
-            wget https://github.com/quanKris/repo/releases/latest/download/release.tgz -O release.tgz
-            tar zxvf release.tgz
+      # Add your subsequent steps here
+
 
