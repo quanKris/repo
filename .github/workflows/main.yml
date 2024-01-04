@@ -63,11 +63,11 @@ jobs:
           user: 'Administrator'
           pass: ${{ secrets.SERVER_PASSWORD }}
           scp: |
-            ./dist/* => /nginx-1.25.3/html
-          last_ssh: |
-            echo $LASTSSH 
-            nginx -t
-            nginx -s reload
+            ./dist/* => /nginx-1.25.3/html/dist
+          # last_ssh: |
+          #   echo $LASTSSH 
+          #   nginx -t
+          #   nginx -s reload
 
       # Add your subsequent steps here
 
