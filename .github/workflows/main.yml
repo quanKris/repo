@@ -57,8 +57,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
-          tag_name: ${{ github.ref | replace('refs/heads/', '') }}
-          release_name: Release ${{ github.ref | replace('refs/heads/', '') }}
+          tag_name: ${{ github.sha }}
+          release_name: Release ${{ github.sha }}
           draft: false
           prerelease: false
 
