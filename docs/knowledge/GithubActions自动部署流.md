@@ -1,10 +1,8 @@
 ---
 title: GithubActions自动部署流
-date: 2023-12-28
+date: 2024-01-04
 ---
 <!-- [TOC] -->
-
-
 
 ## 准备工作 
 
@@ -36,7 +34,7 @@ C:\Program Files\Git\etc\ssh\sshd_config  文件，git外部登录选项放开
 
 项目根目录初始化github的workflow流
 
-![](D:\phpstudy_pro\WWW\repo\.vuepress\public\github.png)
+![github](http://106.55.199.237/workflow/github.png)
 
 
 
@@ -94,11 +92,11 @@ jobs:
 secrets.SERVER_IP
 采用大写形式，在github中如下位置进行配置字段，yml流中自由取用。
 
-![](D:\phpstudy_pro\WWW\repo\.vuepress\public\secrets.png)
+![secrets](http://106.55.199.237/workflow/secrets.png)
 
 
 
-如果需要用到ACCESS_TOKEN的地方，去github的根settings里，点击Developer settings，勾选repo，和workflow流，生成秘钥，允许通过token进行控制仓库。本项目中未用到。
+如果需要用到ACCESS_TOKEN的地方，去github的根settings里，点击Developer settings，勾选repo，和workflow流，生成秘钥，允许通过ssh token进行控制仓库。本项目中未用到。
 
 ## 编译过程&结果
 
@@ -108,4 +106,4 @@ secrets.SERVER_IP
  "build": "export NODE_OPTIONS=--openssl-legacy-provider && vuepress build ."
 ```
 
-![](D:\phpstudy_pro\WWW\repo\.vuepress\public\workflow.png)
+![workflow](http://106.55.199.237/workflow/workflow.png)
