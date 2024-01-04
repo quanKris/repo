@@ -29,27 +29,61 @@
 #           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
 #           BRANCH: main
 #           FOLDER: /dist
-name: AAA
-on: # 监听 master 分支上的 push 事件
+name: Static Blog
+on:
   push:
     branches:
       - main
+
 jobs:
   build-and-deploy:
-    runs-on: ubuntu-latest # 构建环境使用 ubuntu
+    runs-on: ubuntu-latest
     steps:
-    - name: Checkout
-      uses: actions/checkout@master
+      # 下载源码
+      - name: Checkout
+        uses: actions/checkout@master
 
-    - name: Build and Deploy
-      uses: jenkey2011/vuepress-deploy@master
-      env:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }} # VUEAD 是我的 secret 名称，需要替换成你的
-        # 你要操作的目标仓库，注意：是项目仓库名
-        TARGET_REPO: quanKris/repo
-        # 构建结果存储的分支
-        TARGET_BRANCH: main
-        # 要使用的构建命令
-        BUILD_SCRIPT: npm install --registry=https://registry.npm.taobao.org && npm run build # 下载依赖 打包项目
-        # 构建结果存储目录，dist里面会有index.html，如果没有这个文件，显示不了，可在本地构建后去校验
-        BUILD_DIR: .
+      # 打包构建
+      - name: Build
+        uses: actions/setup-node@master
+      - run: npm install --registry=https://registry.npm.taobao.org
+      - run: npm run build
+      - run: tar -zcvf release.tgz dist
+
+      # 发布 Release
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          tag_name: ${{ github.ref }}
+          release_name: Release ${{ github.ref }}
+          draft: false
+          prerelease: false
+
+      # 上传构建结果到 Release
+      - name: Upload Release Asset
+        id: upload-release-asset
+        uses: actions/upload-release-asset@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./release.tgz
+          asset_name: release.tgz
+          asset_content_type: application/x-tgz
+
+      # 部署到服务器
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: 'Administrator'
+          password: ${{ secrets.SERVER_PASSWORD }}
+          port: '22'
+          script: |
+            cd /nginx-1.25.3/html
+            wget https://github.com/quanKris/repo/releases/latest/download/release.tgz -O release.tgz
+            tar zxvf release.tgz
+
