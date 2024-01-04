@@ -66,7 +66,7 @@ jobs:
           pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
           local: './dist/*'
-          remote: /nginx-1.25.3/html
+          remote: /C:/nginx-1.25.3/html
 
       # Add your subsequent steps here
 
