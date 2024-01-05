@@ -1,5 +1,5 @@
 ---
-title: Github Actions自动部署流
+title: Github Actions
 date: 2024-01-04
 ---
 <!-- [TOC] -->

@@ -6,9 +6,9 @@ date: 2020-05-29
 
 [CSS](CSS.md)
 
-[常用的JS方法](常用的JS方法.md)
+[JavaScript](JavaScript.md)
 
-[高阶JS](高阶JS.md)
+[前端工程化工具](前端工程化工具.md)
 
 [Jquery](Jquery.md)
 
@@ -22,11 +22,9 @@ date: 2020-05-29
 
 [小程序开发](小程序开发.md)
 
-[常用工具类](常用工具类.md)
+[辞海](辞海.md)
 
 [Vuepress语法](Vuepress语法.md)
-
-[工程化工具](工程化工具.md)
 
 [GithubActions自动部署流](GithubActions自动部署流.md)
 
