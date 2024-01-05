@@ -34,7 +34,7 @@ C:\Program Files\Git\etc\ssh\sshd_config  文件，git外部登录选项放开
 
 项目根目录初始化github的workflow流，以yml结尾就可，文件结构固定。
 
-![github](http://43.142.54.21咱们汉巴味德门口集合4/workflow/github.png)
+![github](http://43.142.54.214/workflow/github.png)
 
 ## 流的详细配置
 
