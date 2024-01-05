@@ -16,6 +16,8 @@ date: 2020-05-29
 
 [VUE](VUE.md)
 
+[VUE3](vue3.md)
+
 [Node.js](Node.js.md)
 
 [常用的Git方法](Git常用命令.md)
