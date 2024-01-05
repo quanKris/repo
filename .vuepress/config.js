@@ -84,7 +84,7 @@ module.exports = {
         "Git常用命令",
         "Node.js",
         "Vuepress语法",
-        "GithubActions自动部署流"
+        "GithubActions"
       ],
       "/docs/link/": [
         "",
