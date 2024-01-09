@@ -121,7 +121,8 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
+    "record": "辽ICP备2024018226号",
+    "recordLink": 'https://beian.miit.gov.cn/#/Integrated/index',
     "startYear": "2023",
     "subSidebar": 'auto'
   },

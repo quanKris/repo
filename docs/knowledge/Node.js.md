@@ -125,12 +125,10 @@ npm install md5@1（安装指定版本）
 npm outdated(  检查包是否已经过时)
 
 
-	"dependencies": {    "md5": "^2.1.0"  }  ^ 表示 如果 直接npm install 将会 安md5
-    2.*.*  	最新版本
-
-	"dependencies": {    "md5": "~2.1.0"  }  ~ 表示 如果 直接npm install 将会 安装md5 2.1.*  最新版本
-
-	"dependencies": {    "md5": "*"  }  * 表示 如果 直接npm install 将会 安装 md5  最新版本
+"dependencies": {    "md5": "^2.1.0"  }  ^ 表示 如果 直接npm install 将会 安md5
+2.*.*  	最新版本
+"dependencies": {    "md5": "~2.1.0"  }  ~ 表示 如果 直接npm install 将会 安装md5 2.1.*  最新版本
+"dependencies": {    "md5": "*"  }  * 表示 如果 直接npm install 将会 安装 md5  最新版本
 ```
 
 ### 7. 全局安装 nrm  可选，一般用不上 
@@ -197,9 +195,7 @@ npm install -g yarn
 
 
 
-### 5.  内置模块
-
-## 01  http模块
+### 9. http模块
 
 > 要使用 HTTP 服务器和客户端，则必须 `require('http')`。
 
@@ -235,7 +231,7 @@ server.on('request', (request, res) => {
 server.listen(8000);
 ```
 
-## 	02   url模块
+### 10. url模块
 
 **02.1 parse**
 
