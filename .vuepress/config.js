@@ -37,10 +37,6 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          },
-          {
             "text": "都是芝士啊",
             "link": "/docs/knowledge/"
           },
@@ -56,19 +52,13 @@ module.exports = {
         "items": [
           {
             "text": "GitHub",
-            "link": "https://gitee.com/yuan19980925/reco-blog",
+            "link": "https://github.com/quanKris/repo",
             "icon": "reco-github"
           }
         ]
       }
     ],
     "sidebar": {
-      "/docs/theme-reco/": [
-        "",
-        "theme",
-        "plugin",
-        "api"
-      ],
       "/docs/knowledge/": [
         "",
         "HTML",
@@ -106,7 +96,7 @@ module.exports = {
         "title": "协同开发,加入我",
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "320356500@qq.com",
-        "link": "https://gitee.com/yuan19980925/reco-blog"
+        "link": "https://github.com/quanKris/repo"
       },
       {
         "title": "vuepress-theme-reco技术支持",
