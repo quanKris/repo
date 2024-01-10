@@ -233,8 +233,7 @@ server.listen(8000);
 
 ### 10. url模块
 
-**02.1 parse**
-
+1 parse
 ```js
 const url = require('url')
 const urlString = 'https://www.baidu.com:443/ad/index.html?id=8&name=mouse#tag=110'
@@ -242,7 +241,7 @@ const parsedStr = url.parse(urlString)
 console.log(parsedStr)
 ```
 
-**02.2 format**
+2 format
 
 ```js
 const url = require('url')
@@ -264,23 +263,21 @@ console.log(parsedObj)
 
 ```
 
-
-
-**02.3 resolve**
+3 resolve
 
 ```js
 const url = require('url')
-var a = url.resolve('/one/two/three', 'four')  ( 注意最后加/ ，不加/的区别 )
-var b = url.resolve('http://example.com/', '/one')
-var c = url.resolve('http://example.com/one', '/two')
+var a = url.resolve('/one/two/three', 'four')  ( 注意最后加/ ，不加/的区别 )// four
+var b = url.resolve('http://example.com/', '/one') //http://example.com/one
+var c = url.resolve('http://example.com/one', '/two') //http://example.com/two
 console.log(a + "," + b + "," + c)
 ```
 
 
 
-## 	03  querystring模块
+### 11. querystring模块
 
-**03.1 parse**
+1 parse
 
 ```js
 const querystring = require('querystring')
@@ -290,7 +287,7 @@ console.log(parsed)
 
 ```
 
-**03.2 stringify**
+2 stringify**
 
 ```js
 const querystring = require('querystring')
@@ -303,7 +300,7 @@ console.log(parsed)
 
 ```
 
-**03.3 escape/unescape**
+3 escape/unescape**
 
 <img src="http://43.142.54.214/nodejs/image-20220213211406894.png" alt="image-20220213211406894" style="zoom:67%;" />
 
