@@ -63,9 +63,9 @@ jobs:
           user: 'Administrator'
           pass: ${{ secrets.SERVER_PASSWORD }}
           scp: |
-            ./dist.tgz => /nginx-1.25.3/html/dist
+            ./dist.tgz => /nginx-1.25.3/html/blog
           last_ssh: |
-            cd C:/nginx-1.25.3/html/dist
+            cd C:/nginx-1.25.3/html/blog
             tar -xf dist.tgz
             del dist.tgz
             cd C:/nginx-1.25.3
