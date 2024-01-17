@@ -36,7 +36,7 @@ C:\Program Files\Git\etc\ssh\sshd_config  文件，git外部登录选项放开
 
 项目根目录初始化github的workflow流，以yml结尾就可，文件结构固定。
 
-![github](http://43.142.54.214/workflow/github.png)
+![github](http://blog.babade.asia/workflow/github.png)
 
 ## 流的详细配置
 
@@ -111,7 +111,7 @@ secrets.SERVER_IP 配置中的key默认采用大写形式，在github中如下�
 如果需要用到ACCESS_TOKEN的地方，去github的根settings里，点击Developer settings，勾选repo，和workflow流，生成秘钥，允许通过ssh token进行控制仓库。本项目用的账号密码直接登录的，没用ssh接管。
 :::
 
-![secrets](http://43.142.54.214/workflow/secrets.png)
+![secrets](http://blog.babade.asia/workflow/secrets.png)
 
 
 
@@ -131,4 +131,4 @@ secrets.SERVER_IP 配置中的key默认采用大写形式，在github中如下�
 有报红的步骤，具体原因具体分析，大多数都是actions插件没玩明白的原因，或者服务器ssh登录不上。
 :::
 
-![workflow](http://43.142.54.214/workflow/workflow.png)
+![workflow](http://blog.babade.asia/workflow/workflow.png)
