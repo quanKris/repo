@@ -632,3 +632,137 @@ html中：
 
 ```
 
+## vue中封装dialog组件，全局使用，可避免缓存
+
+通过main.js注册全局
+
+```js
+import dialog from './utils/dialog'
+Vue.prototype.$dialog = dialog
+```
+
+dialog.js文件
+
+```js
+import Vue from 'vue'
+
+const dialogMixin = {
+  data() {
+    return {
+      resolve: true
+    }
+  },
+
+  computed: {
+    visible: {
+      get() {
+        return Boolean(this.resolve)
+      },
+
+      set(val) {
+        if (!val) this.$dismiss()
+      }
+    }
+  },
+
+  methods: {
+    open() {
+      return new Promise((resolve, reject) => {
+        this.resolve = resolve
+        this.reject = reject
+      })
+    },
+    $close(value) {
+      if (this.resolve) {
+        this.resolve(value)
+        this.resolve = null
+      }
+    },
+    $dismiss() {
+      if (this.reject) {
+        this.reject()
+        this.reject = null
+      }
+    }
+  }
+}
+
+const dialog = function(component, opts) {
+  component = Object.assign({}, component)
+  component.mixins = [dialogMixin]
+
+  const Constructor = Vue.extend(component)
+  const vm = new Constructor({ propsData: opts })
+  vm.$nextTick(() => {
+    vm.$mount(document.body.appendChild(document.createElement('div')))
+  })
+
+  return new Promise((resolve, reject) => {
+    vm.open().then((val) => {
+      resolve(val)
+    }).catch((e) => {
+      reject(e)
+    }).finally(() => {
+      if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > -1) {
+        vm.$destroy()
+        document.body.removeChild(vm.$el)
+      } else {
+        // destroy after dialog faded out
+        setTimeout(() => {
+          vm.$destroy()
+          document.body.removeChild(vm.$el)
+        }, 200)
+      }
+    })
+  })
+}
+
+export default dialog
+
+```
+
+触发初始化dialog部分：
+
+```js
+import uploadDialog from './uploadDialog.vue'
+handleUpload() {
+      this.$dialog(uploadDialog, {}).then((value) => {
+        this.resetAndQuery()
+      }).catch(() => {})
+}
+```
+
+uploadDialog 为业务弹窗组件，自行引入
+
+```vue
+<template>
+  <el-dialog
+    :title="title"
+    :visible.sync="visible"
+    width="400px"
+    custom-class="upload-file-dialog"
+  >
+    <!-- 此处为业务组件，我们只关心cancel和confirm部分的逻辑 -->
+    <span slot="footer" class="dialog-footer">
+      <el-button @click="$dismiss">Cancel</el-button>
+      <el-button type="primary" :loading="loading" @click="handleConfirm">Confirm</el-button>
+    </span>
+  </el-dialog>
+</template>
+<script>
+export default {
+  methods: {
+    handleConfirm() {
+          uploadFile(params, this.id).then(({ data }) => {
+            const { id } = data
+            this.$close(id)
+          })
+        }
+      })
+    }
+  }
+}
+</script>
+
+```
+
