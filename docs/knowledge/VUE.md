@@ -505,7 +505,7 @@ redux原理: 订阅发布模式
 
 ## **27.Ant-Design**
 	 哪些组件？ 准备几个
-
+	
 	 Button (size, type , disabled... ) 
 
 ## **28.immutable (结构共享)**
@@ -632,6 +632,9 @@ html中：
 ```
 
 ## **31.vue中封装dialog组件，全局使用，可避免缓存**
+::: tip 大致思路
+$dialog触发，用mixin将传入的弹窗内的页面和dialog组件混入，生成新的元素，手动push在页面中，之后open()方法，创建一个promise函数，resovle和reject控制事件，在接口正常传递，需要将弹窗关闭的时候，close方法调用，resolve返回所需value值（可选），如果cancel弹窗或者点击弹窗外侧，触发dialog的visible = false，dialog组件中的computed监听到后，执行dismiss命令，走catch后，finally清除组件，注意，回调后弹窗消失和主动让弹窗消失，都是依靠dialog的finally事件，清除dialog元素，避免缓存。
+:::
 
 通过main.js注册全局
 
@@ -701,7 +704,7 @@ const dialog = function(component, opts) {
       resolve(val)
     }).catch((e) => {
       reject(e)
-    }).finally(() => {
+    }).finally(() => { 
       if (navigator.userAgent.indexOf('MSIE') !== -1 || navigator.appVersion.indexOf('Trident/') > -1) {
         vm.$destroy()
         document.body.removeChild(vm.$el)
