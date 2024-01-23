@@ -335,7 +335,7 @@ Test2.prototype.constructor =Test2;
 
 > 原型链的基本原理：任何一个实例，通过原型链，找到它上面的原型，该原型对象中的方法和属性，可以被所有的原型实例共享。
 
-![image-20200411192514703](http://blog.babade.asia/image-20200411192514703.png)
+![image-20200411192514703](https://blog.babade.asia/image-20200411192514703.png)
 
 ##  闭包
 

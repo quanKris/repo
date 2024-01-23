@@ -1,11 +1,11 @@
 ---
 title: Node JS
-date: 2023-12-28
+date: 2024-01-23
 categories: 
  - Node JS
 ---
 
-[[TOC]]
+<!-- [[TOC]] -->
 
 ## 一、Node.js基础
 
@@ -21,7 +21,7 @@ categories:
 
 > http://nodejs.cn/learn/how-much-javascript-do-you-need-to-know-to-use-nodejs
 
-![image-20220209152247426](http://blog.babade.asia/nodejs/image-20220209152247426.png)
+![image-20220209152247426](https://blog.babade.asia/nodejs/image-20220209152247426.png)
 
 Node.js 可以解析JS代码（没有浏览器安全级别的限制）提供很多系统级别的API，如：
 
@@ -67,17 +67,17 @@ Node.js 可以解析JS代码（没有浏览器安全级别的限制）提供很�
 
 > http://nodejs.cn/download/
 
-![image-20220210095903409](http://blog.babade.asia/nodejs/image-20220210095903409.png)
+![image-20220210095903409](https://blog.babade.asia/nodejs/image-20220210095903409.png)
 
 ### 3.  模块、包、commonJS
 
-![image-20220210100015768](http://blog.babade.asia/nodejs/image-20220210100015768.png)
+![image-20220210100015768](https://blog.babade.asia/nodejs/image-20220210100015768.png)
 
 ### 4. CommonJS规范
 
-<img src="http://blog.babade.asia/nodejs/image-20220210101652166.png" alt="image-20220210101652166" style="zoom: 67%;display:block; float: left;" />
+<img src="https://blog.babade.asia/nodejs/image-20220210101652166.png" alt="image-20220210101652166" style="zoom: 67%;display:block; float: left;" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220210101720533.png" alt="image-20220210101720533" style="zoom: 67%; display:block" />
+<img src="https://blog.babade.asia/nodejs/image-20220210101720533.png" alt="image-20220210101720533" style="zoom: 67%; display:block" />
 
 ### 5. modules模块化规范写法
 
@@ -161,7 +161,7 @@ nrm test
 
 >  扩展：
 
-> ![image-20220210114017616](http://blog.babade.asia/nodejs/image-20220210114017616.png)
+> ![image-20220210114017616](https://blog.babade.asia/nodejs/image-20220210114017616.png)
 
  ```bash
  npm install -g cnpm --registry=https://registry.npmmirror.com
@@ -235,7 +235,7 @@ server.listen(8000);
 
 ### 10. url模块
 
-1 parse
+- parse
 ```js
 const url = require('url')
 const urlString = 'https://www.baidu.com:443/ad/index.html?id=8&name=mouse#tag=110'
@@ -243,7 +243,7 @@ const parsedStr = url.parse(urlString)
 console.log(parsedStr)
 ```
 
-2 format
+- format
 
 ```js
 const url = require('url')
@@ -265,7 +265,7 @@ console.log(parsedObj)
 
 ```
 
-3 resolve
+- resolve
 
 ```js
 const url = require('url')
@@ -279,7 +279,7 @@ console.log(a + "," + b + "," + c)
 
 ### 11. querystring模块
 
-1 parse
+- parse
 
 ```js
 const querystring = require('querystring')
@@ -289,7 +289,7 @@ console.log(parsed)
 
 ```
 
-2 stringify**
+- stringify
 
 ```js
 const querystring = require('querystring')
@@ -302,11 +302,11 @@ console.log(parsed)
 
 ```
 
-3 escape/unescape**
+- escape/unescape
 
-<img src="http://blog.babade.asia/nodejs/image-20220213211406894.png" alt="image-20220213211406894" style="zoom:67%;" />
+<img src="https://blog.babade.asia/nodejs/image-20220213211406894.png" alt="image-20220213211406894" style="zoom:67%;" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220213211423142.png" alt="image-20220213211423142" style="zoom:67%;" />
+<img src="https://blog.babade.asia/nodejs/image-20220213211423142.png" alt="image-20220213211423142" style="zoom:67%;" />
 
 ```js
 const querystring = require('querystring')
@@ -323,10 +323,11 @@ var unescaped = querystring.unescape(str)
 console.log(unescaped)
 ```
 
-## 	04  http模块补充
+### 12. http模块补充
 
-**04.1 接口：jsonp**
-
+::: tip
+接口：jsonp
+:::
 ```js
 const http = require('http')
 const url = require('url')
@@ -349,8 +350,9 @@ app.listen(8080, () => {
 })
 ```
 
-**04.2 跨域：CORS**
-
+::: tip
+跨域：CORS
+:::
 ```js
 const http = require('http')
 const url = require('url')
@@ -391,8 +393,10 @@ app.listen(8080, () => {
   console.log('localhost:8080')
 })
 ```
-**04.3 模拟get**
 
+::: tip
+模拟get
+:::
 ```js
 var http = require('http')
 var https = require('https')
@@ -429,8 +433,9 @@ server.listen(8080, () => {
 })
 ```
 
-**04.4 模拟post：服务器提交（攻击）**
-
+::: tip
+模拟post：服务器提交（攻击）
+:::
 ```js
 const https = require('https')
 const querystring = require('querystring')
@@ -479,10 +484,9 @@ function doPost() {
 // }, 1000)
 ```
 
-
-
-**04.5 爬虫**
-
+::: tip
+爬虫
+:::
 ```js
 const https = require('https')
 const http = require('http')
@@ -532,7 +536,7 @@ http.createServer((request, response) => {
 }).listen(3000)
 ```
 
-## 	05  event模块
+### 13.	event模块
 
 ```js
 const EventEmitter = require('events')
@@ -549,7 +553,7 @@ event.emit('play', '我和我的祖国')
 event.emit('play', '中国机长')
 ```
 
-## 	06  fs文件操作模块
+### 14. fs文件操作模块
 
 ```js
 const fs = require('fs')
@@ -645,13 +649,13 @@ fs.readFile('./logs/log-0.txt', 'utf-8').then(result => {
 
 服务器启动时如果需要读取配置文件，或者结束时需要写入到状态文件时，可以使用同步代码，因为这些代码只在启动和结束时执行一次，不影响服务器正常运行时的异步执行。
 
-## 	07  stream流模块
+### 15. stream流模块
 
 `stream`是Node.js提供的又一个仅在服务区端可用的模块，目的是支持“流”这种数据结构。
 
 什么是流？流是一种抽象的数据结构。想象水流，当在水管中流动时，就可以从某个地方（例如自来水厂）源源不断地到达另一个地方（比如你家的洗手池）。我们也可以把数据看成是数据流，比如你敲键盘的时候，就可以把每个字符依次连起来，看成字符流。这个流是从键盘输入到应用程序，实际上它还对应着一个名字：标准输入流（stdin）。
 
-![image-20220407085931744](http://blog.babade.asia/nodejs/image-20220407085931744.png)
+![image-20220407085931744](https://blog.babade.asia/nodejs/image-20220407085931744.png)
 
 如果应用程序把字符一个一个输出到显示器上，这也可以看成是一个流，这个流也有名字：标准输出流（stdout）。流的特点是数据是有序的，而且必须依次读取，或者依次写入，不能像Array那样随机定位。
 
@@ -711,9 +715,9 @@ const writestream = fs.createWriteStream('./2.txt')
 readstream.pipe(writestream)
 ```
 
-## 08 zlib
+### 16. zlib
 
-<img src="http://blog.babade.asia/nodejs/image-20220407105916114.png" alt="image-20220407105916114" style="zoom:50%;" />
+<img src="https://blog.babade.asia/nodejs/image-20220407105916114.png" alt="image-20220407105916114" style="zoom:50%;" />
 
 ```js
 const fs = require('fs')
@@ -730,7 +734,7 @@ readstream
 
 ```
 
-## 09 crypto
+### 17. crypto
 
 crypto模块的目的是为了提供通用的加密和哈希算法。用纯JavaScript代码实现这些功能不是不可能，但速度会非常慢。Nodejs用C/C++实现这些算法后，通过cypto这个模块暴露为JavaScript接口，这样用起来方便，运行速度也快。
 
@@ -793,10 +797,11 @@ key,iv必须是16个字节
 
 可以看出，加密后的字符串通过解密又得到了原始内容。
 
-### 6.   路由
+### 18. 路由
 
-## 	01   基础
-
+::: tip
+基础
+:::
 ```js
 /*
  * @作者: kerwin
@@ -828,8 +833,9 @@ const route = {
 
 
 ```
-
-## 02   获取参数
+::: tip
+获取参数
+:::
 
 get请求
 
@@ -860,8 +866,9 @@ post请求
 ```
 
 
-
-## 03   静态资源处理
+::: tip
+静态资源处理
+:::
 
 ```js
 function readStaticFile(req, res) {
@@ -888,7 +895,7 @@ function readStaticFile(req, res) {
 
 ### 1.特色
 
-<img src="http://blog.babade.asia/nodejs/image-20220411103139587.png" alt="image-20220411103139587" style="zoom: 50%;float:left;" />
+<img src="https://blog.babade.asia/nodejs/image-20220411103139587.png" alt="image-20220411103139587" style="zoom: 50%;float:left;" />
 
 ### 2.安装
 
@@ -1235,7 +1242,7 @@ http://localhost:3000/static/hello.html
 
 ### 7.服务端渲染（模板引擎）
 
-<img src="http://blog.babade.asia/nodejs/image-20220411104609389.png" alt="image-20220411104609389" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220411104609389.png" alt="image-20220411104609389" style="zoom:50%;float:left" />
 
 ```js
 npm i ejs
@@ -1246,21 +1253,21 @@ npm i ejs
 - views, 放模板文件的目录，比如： app.set('views', './views')
 - view engine, 模板引擎，比如： app.set('view engine', 'ejs')
 
-<img src="http://blog.babade.asia/nodejs/image-20220411104652068.png" alt="image-20220411104652068" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220411104652068.png" alt="image-20220411104652068" style="zoom:50%;float:left" />
 
 ## 三、MongoDB
 
 ### 1.关系型与非关系型数据库
 
-<img src="http://blog.babade.asia/nodejs/image-20220413085332378.png" alt="image-20220413085332378" style="zoom:67%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220413085332378.png" alt="image-20220413085332378" style="zoom:67%;float:left" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090707891.png" alt="image-20220413090707891" style="zoom: 67%;float:left;" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090707891.png" alt="image-20220413090707891" style="zoom: 67%;float:left;" />
 
-![image-20220413090406721](http://blog.babade.asia/nodejs/image-20220413090406721.png)
+![image-20220413090406721](https://blog.babade.asia/nodejs/image-20220413090406721.png)
 
 
 
-![image-20220413090614205](http://blog.babade.asia/nodejs/image-20220413090614205.png)
+![image-20220413090614205](https://blog.babade.asia/nodejs/image-20220413090614205.png)
 
 ### 2.安装数据库
 
@@ -1284,23 +1291,23 @@ mongo
 
 ### 4.在命令行中操作数据库
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090814836.png" alt="image-20220413090814836" style="zoom:50%;float:left;" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090814836.png" alt="image-20220413090814836" style="zoom:50%;float:left;" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090825381.png" alt="image-20220413090825381" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090825381.png" alt="image-20220413090825381" style="zoom:50%;float:left" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090837613.png" alt="image-20220413090837613" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090837613.png" alt="image-20220413090837613" style="zoom:50%;float:left" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090858199.png" alt="image-20220413090858199" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090858199.png" alt="image-20220413090858199" style="zoom:50%;float:left" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090907539.png" alt="image-20220413090907539" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090907539.png" alt="image-20220413090907539" style="zoom:50%;float:left" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220413090916971.png" alt="image-20220413090916971" style="zoom:50%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220413090916971.png" alt="image-20220413090916971" style="zoom:50%;float:left" />
 
 ### 5.可视化工具进行增删改查
 
 Robomongo Robo3T adminMongo
 
-![image-20220413091031852](http://blog.babade.asia/nodejs/image-20220413091031852.png)
+![image-20220413091031852](https://blog.babade.asia/nodejs/image-20220413091031852.png)
 
 ### 6.nodejs连接操作数据库
 
@@ -1365,19 +1372,19 @@ UserModel.deleteOne({_id})
 
 ### 1.接口规范
 
-<img src="http://blog.babade.asia/nodejs/image-20220414094020921.png" alt="image-20220414094020921" style="zoom: 67%; float: left;" />
+<img src="https://blog.babade.asia/nodejs/image-20220414094020921.png" alt="image-20220414094020921" style="zoom: 67%; float: left;" />
 
-<img src="http://blog.babade.asia/nodejs/image-20220414094043782.png" alt="image-20220414094043782" style="zoom: 67%;float:left" />
+<img src="https://blog.babade.asia/nodejs/image-20220414094043782.png" alt="image-20220414094043782" style="zoom: 67%;float:left" />
 
 ### 2.业务分层
 
-![image-20220414094653807](http://blog.babade.asia/nodejs/image-20220414094653807.png)
+![image-20220414094653807](https://blog.babade.asia/nodejs/image-20220414094653807.png)
 
 ## 五、登录鉴权
 
 ### 1. Cookie&Session
 
-「HTTP 无状态」**我们知道，HTTP 是无状态的。也就是说，HTTP 请求方和响应方间无法维护状态，都是一次性的，它不知道前后的请求都发生了什么。但有的场景下，我们需要维护状态。最典型的，一个用户登陆微博，发布、关注、评论，都应是在登录后的用户状态下的。**「标记」那解决办法是什么呢？![image-20220414095345868](http://blog.babade.asia/nodejs/image-20220414095345868.png)
+「HTTP 无状态」**我们知道，HTTP 是无状态的。也就是说，HTTP 请求方和响应方间无法维护状态，都是一次性的，它不知道前后的请求都发生了什么。但有的场景下，我们需要维护状态。最典型的，一个用户登陆微博，发布、关注、评论，都应是在登录后的用户状态下的。**「标记」那解决办法是什么呢？![image-20220414095345868](https://blog.babade.asia/nodejs/image-20220414095345868.png)
 
 
 
@@ -1427,11 +1434,11 @@ app.use((req,res,next)=>{
 
 ## （1）介绍
 
-![image-20220415082822828](http://blog.babade.asia/nodejs/image-20220415082822828.png)
+![image-20220415082822828](https://blog.babade.asia/nodejs/image-20220415082822828.png)
 
 我为什么要保存这可恶的session呢， 只让每个客户端去保存该多好？
 
-![image-20220415083015066](http://blog.babade.asia/nodejs/image-20220415083015066.png)
+![image-20220415083015066](https://blog.babade.asia/nodejs/image-20220415083015066.png)
 
 当然， 如果一个人的token 被别人偷走了， 那我也没办法， 我也会认为小偷就是合法用户， 这其实和一个人的session id 被别人偷走是一样的。
 
@@ -1604,7 +1611,7 @@ apidoc 拥有以下特点：
 npm install -g apidoc
 ```
 
-## ![image-20220415085343339](http://blog.babade.asia/nodejs/image-20220415085343339.png)
+## ![image-20220415085343339](https://blog.babade.asia/nodejs/image-20220415085343339.png)
 
 注意：
 
@@ -1622,7 +1629,7 @@ npm install -g apidoc
 （2）可以利用vscode apidoc snippets 插件创建api
 ## 八、Koa2
 
-<img src="http://blog.babade.asia/nodejs/image-20220417075653414.png" alt="image-20220417075653414" style="zoom:50%;" />
+<img src="https://blog.babade.asia/nodejs/image-20220417075653414.png" alt="image-20220417075653414" style="zoom:50%;" />
 
 ### 1.简介
 
@@ -1654,7 +1661,7 @@ app.listen(3000)
 
 ```
 
-![image-20220417092053231](http://blog.babade.asia/nodejs/image-20220417092053231.png)
+![image-20220417092053231](https://blog.babade.asia/nodejs/image-20220417092053231.png)
 
 ## 2.3 启动demo
 
@@ -1687,9 +1694,9 @@ koa增加了一个Context的对象，作为这次请求的上下文对象（在k
 
 ​     koa中间件采用洋葱模型（对于每个中间件，在完成了一些事情后，可以非常优雅的将控制权传递给下一个中间件，并能够等待它完成，当后续的中间件完成处理后，控制权又回到了自己）
 
-<img src="http://blog.babade.asia/nodejs/image-20220417083817823.png" alt="image-20220417083817823" style="zoom:50%;float:left;" />
+<img src="https://blog.babade.asia/nodejs/image-20220417083817823.png" alt="image-20220417083817823" style="zoom:50%;float:left;" />
 
-   ![image-20220417085913567](http://blog.babade.asia/nodejs/image-20220417085913567.png)
+   ![image-20220417085913567](https://blog.babade.asia/nodejs/image-20220417085913567.png)
 
 ```js
 //同步
@@ -1794,7 +1801,7 @@ app.listen(3000)
 
 ## 4.2 router.allowedMethods作用
 
-![image-20220417102845079](http://blog.babade.asia/nodejs/image-20220417102845079.png)
+![image-20220417102845079](https://blog.babade.asia/nodejs/image-20220417102845079.png)
 
 ## 4.3 请求方式
 
@@ -2155,7 +2162,7 @@ module.exports = UserModel
 
 作为一个JavaScript全栈工程师，选择哪个免费数据库呢？当然是MySQL。因为MySQL普及率最高，出了错，可以很容易找到解决方法。而且，围绕MySQL有一大堆监控和运维的工具，安装和使用很方便。
 
-![image-20220420083146539](http://blog.babade.asia/nodejs/image-20220420083146539.png)
+![image-20220420083146539](https://blog.babade.asia/nodejs/image-20220420083146539.png)
 
 
 
@@ -2192,7 +2199,7 @@ module.exports = UserModel
 
 ### 3.sql语句
 
-![image-20220420092527846](http://blog.babade.asia/nodejs/image-20220420092527846.png)
+![image-20220420092527846](https://blog.babade.asia/nodejs/image-20220420092527846.png)
 
 插入：
 
@@ -2265,7 +2272,7 @@ ON s.class_id = c.id; （连接查询对多个表进行JOIN运算，简单地说
 
 ```
 
-![image-20220420090841742](http://blog.babade.asia/nodejs/image-20220420090841742.png)
+![image-20220420090841742](https://blog.babade.asia/nodejs/image-20220420090841742.png)
 
 注意：
 
@@ -2351,7 +2358,7 @@ promisePool.query(`delete from users where id=?`,[1])
 
 ### 1.websocket介绍
 
-<img src="http://blog.babade.asia/nodejs/image-20220421084242097.png" alt="image-20220421084242097" style="zoom:50%;" />
+<img src="https://blog.babade.asia/nodejs/image-20220421084242097.png" alt="image-20220421084242097" style="zoom:50%;" />
 
 **应用场景：**
 
@@ -2709,7 +2716,7 @@ describe('#hello.js', () => {
 
 
 
-![image-20220505113605440](http://blog.babade.asia/nodejs/image-20220505113605440.png)
+![image-20220505113605440](https://blog.babade.asia/nodejs/image-20220505113605440.png)
 
 ```js
 var chai = require('chai')
