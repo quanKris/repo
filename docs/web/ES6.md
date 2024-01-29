@@ -2,7 +2,7 @@
 title: ES6
 date: 2023-12-28
 categories: 
- - ES6
+ - Web
 ---
 <!-- [TOC] -->
 

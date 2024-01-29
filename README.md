@@ -13,7 +13,7 @@ tagline: 一个年终奖砍半的伤心男孩.(本文档计划2024年升级至re
 # }
 bgImage: '/bg.jpg'
 bgImageStyle: {
-  height: '800px'
+  height: '600px'
 }
 isShowTitleInHome: false
 actionText: Guide

@@ -37,12 +37,20 @@ module.exports = {
         "icon": "reco-message",
         "items": [
           {
-            "text": "都是芝士啊",
-            "link": "/docs/knowledge/"
+            "text": "Web",
+            "link": "/docs/web/HTML"
+          },
+          {
+            "text": "Backend",
+            "link": "/docs/backend/Node.js"
+          },
+          {
+            "text": "CI/CD",
+            "link": "/docs/cicd/Git常用命令"
           },
           {
             "text": "Link",
-            "link": "/docs/link/"
+            "link": "/docs/link/link"
           }
         ]
       },
@@ -59,8 +67,7 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/knowledge/": [
-        "",
+      "/docs/web/": [
         "HTML",
         "CSS",
         "JavaScript",
@@ -71,13 +78,20 @@ module.exports = {
         "vue3",
         "辞海",
         "小程序开发",
-        "Git常用命令",
-        "Node.js",
         "Vuepress语法",
+      ],
+      "/docs/backend/": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Mysql",
+      ],
+      "/docs/cicd/": [
+        "Git常用命令",
         "GithubActions"
       ],
       "/docs/link/": [
-        "",
+        // "",
         "link",
       ],
     },

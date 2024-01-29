@@ -2,7 +2,7 @@
 title: HTML
 date: 2023-12-28
 categories: 
- - HTML
+ - Web
 ---
 <!-- [TOC] -->
 

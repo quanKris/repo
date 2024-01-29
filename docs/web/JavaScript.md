@@ -3,7 +3,7 @@ title: JavaScript
 date: 2020-05-29
 sidebar: 'auto'
 categories: 
- - JS
+ - Web
 ---
 <!-- [[TOC]] -->
 ## JavaScript的组成

@@ -2,7 +2,7 @@
 title: Vuepress语法
 date: 2020-05-29
 categories: 
- - Vuepress语法
+ - Web
 ---
 <!-- [[TOC]] -->
 

@@ -2,7 +2,7 @@
 title: Github Actions
 date: 2024-01-04
 categories: 
- - Github Actions
+ - CI/CD
 ---
 <!-- [TOC] -->
 
