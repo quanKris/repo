@@ -89,7 +89,8 @@ module.exports = {
       ],
       "/docs/cicd/": [
         "Git常用命令",
-        "GithubActions"
+        "GithubActions",
+        "公众号同步action"
       ],
       "/docs/link/": [
         // "",
