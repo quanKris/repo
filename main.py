@@ -39,5 +39,5 @@ for i in range(len(user_ids)):
         "city": {"value": "当前城市：大连 中国", "color": get_random_color()},
         "version":{"value": "1.0.0", "color": get_random_color()},
     }
-    res = wm.send_template(user_ids[i], template_ids[i], data)
+    res = wm.send_template(user_ids[i], template_ids[0], data)
     print(res)
