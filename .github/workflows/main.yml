@@ -40,38 +40,51 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@master
+    - name: Checkout
+      uses: actions/checkout@master
 
-      - name: Build
-        uses: actions/setup-node@master
-      - run: npm install -g cnpm
-      - run: cnpm install
-      - run: npm run build
+    - name: Build
+      uses: actions/setup-node@master
+    - run: npm install -g cnpm
+    - run: cnpm install
+    - run: npm run build
 
-      - name: Package Dist
-        run: tar -zcvf dist.tgz -C $GITHUB_WORKSPACE/dist .
+    - name: Package Dist
+      run: tar -zcvf dist.tgz -C $GITHUB_WORKSPACE/dist .
 
-      - name: Display Contents
-        run: ls -R
-        
-      - name: scp ssh pipelines
-        uses: cross-the-world/ssh-scp-ssh-pipelines@latest
-        env:
-          LASTSSH: "Doing something after copying"
-        with:
-          host: ${{ secrets.SERVER_IP }}
-          user: 'Administrator'
-          pass: ${{ secrets.SERVER_PASSWORD }}
-          scp: |
-            ./dist.tgz => /nginx-1.25.3/html/blog
-          last_ssh: |
-            cd C:/nginx-1.25.3/html/blog
-            tar -xf dist.tgz
-            del dist.tgz
-            cd C:/nginx-1.25.3
-            nginx -t
-            nginx -s reload
-      # Add your subsequent steps here
+    - name: Display Contents
+      run: ls -R
+      
+    - name: scp ssh pipelines
+      uses: cross-the-world/ssh-scp-ssh-pipelines@latest
+      env:
+        LASTSSH: "Doing something after copying"
+      with:
+        host: ${{ secrets.SERVER_IP }}
+        user: 'Administrator'
+        pass: ${{ secrets.SERVER_PASSWORD }}
+        scp: |
+          ./dist.tgz => /nginx-1.25.3/html/blog
+        last_ssh: |
+          cd C:/nginx-1.25.3/html/blog
+          tar -xf dist.tgz
+          del dist.tgz
+          cd C:/nginx-1.25.3
+          nginx -t
+          nginx -s reload
+    - name: sender
+      uses: actions/setup-python@v2
+      with:
+          python-version: '3.x'
+          architecture: 'x64'
+    - run: pip install -r ./requirements.txt && python ./main.py
+    env:
+        APP_ID: ${{ secrets.APP_ID }}
+        APP_SECRET: ${{ secrets.APP_SECRET }}
+        USER_ID: ${{ secrets.USER_ID }}
+        TEMPLATE_ID: ${{ secrets.TEMPLATE_ID }}
+        CITY: ${{ secrets.CITY }}
+    # Add your subsequent steps here
 
+    
 

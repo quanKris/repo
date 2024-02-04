@@ -3,7 +3,8 @@ title: 都是LINK
 date: 2023-12-28
 ---
 
-
+学习路线
+Javascript ---> Vue2 ---> JQuery ---> Vue3 ---> NodeJS ---> Mysql ---> Nuxt.JS
 [Link](link.md)
 
 <!-- [HTML](HTML.md)
