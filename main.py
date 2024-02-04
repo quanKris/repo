@@ -38,7 +38,6 @@ for i in range(len(user_ids)):
     data = {
         "date": {"value": "当前时间：{}".format(dat_time), "color": get_random_color()},
         "city": {"value": "当前城市：{}".format(cit), "color": get_random_color()},
-        "words": {"value": get_words(), "color": get_random_color()},
         "version":{"value": "1.0.0", "color": get_random_color()},
     }
     res = wm.send_template(user_ids[i], template_ids[i], data)
