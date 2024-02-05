@@ -90,7 +90,7 @@ module.exports = {
       "/docs/cicd/": [
         "Git常用命令",
         "GithubActions",
-        "公众号同步action"
+        "钉钉&公众号发送信息"
       ],
       "/docs/link/": [
         // "",
