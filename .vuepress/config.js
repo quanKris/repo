@@ -1,6 +1,5 @@
 module.exports = {
   "title": "quan",
-  "base":"/repo/",
   "description": "",
   "dest": "dist",
   "head": [
@@ -91,7 +90,8 @@ module.exports = {
       "/docs/cicd/": [
         "Git常用命令",
         "GithubActions",
-        "钉钉&公众号发送信息"
+        "钉钉&公众号发送信息",
+        "Github在线预览demo"
       ],
       "/docs/link/": [
         // "",
