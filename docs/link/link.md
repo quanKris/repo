@@ -168,3 +168,6 @@ categories:
 
 ## Github actions 教程
 <p><a HREF="https://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html" ADD_DATE="1702280329" >Github actions 教程</a></p>
+
+## 钉钉/微信公众号同步github acitons信息实现自动发送
+<p><a HREF="https://blog.csdn.net/qq_45832050/article/details/127473845" ADD_DATE="1702280329" >钉钉/微信公众号同步github acitons</a></p>

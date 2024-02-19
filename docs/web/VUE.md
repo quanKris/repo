@@ -198,7 +198,6 @@ keep-alive 主要是组件缓存，采用的是LRU算法。
 
 ## [**11.3vue 中的.sync语法糖**](https://www.cnblogs.com/wangyanhua95/p/8706147.html)
 
-![1676511303802](C:\Users\MDPI\AppData\Roaming\Typora\typora-user-images\1676511303802.png)
 
 官方对她的描述是：可以对一个prop进行双向绑定，当一个子组件改变了一个带.sync的prop的值时，这个变化也回同步到父组件所绑定的值。
 
