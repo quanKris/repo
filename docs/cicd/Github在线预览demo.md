@@ -18,5 +18,9 @@ categories:
       BRANCH: gh-pages
       FOLDER: dist
 
-//注意是gh-pages分支，是固定的，github用来解析index.html的固定分支，要保证项目中有此分支
 ```
+::: tip
+注意是gh-pages分支，是固定的，github用来解析index.html的固定分支，要保证项目中有此分支
+
+如果需要用到ACCESS_TOKEN的地方，去github的根settings里，点击Developer settings，勾选repo，和workflow流，生成秘钥，允许通过ssh token进行控制仓库。
+:::
