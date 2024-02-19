@@ -1,6 +1,6 @@
 module.exports = {
   "title": "quan",
-  "base":"repo",
+  "base":"./",
   "description": "",
   "dest": "dist",
   "head": [
