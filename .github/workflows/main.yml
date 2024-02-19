@@ -49,6 +49,13 @@ jobs:
     - run: cnpm install
     - run: npm run build
 
+    - name: Deploy Quan
+      uses: JamesIves/github-pages-deploy-action@releases/v3
+      with:
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: gh-pages
+        FOLDER: dist
+
     - name: Package Dist
       run: tar -zcvf dist.tgz -C $GITHUB_WORKSPACE/dist .
 
