@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: null
-tagline: 一个年终奖砍半的伤心男孩.(本文档计划2024年升级至reco2.*版本，敬请期待)
+tagline: 新年新气象，今年一定行.(本文档计划2024年升级至reco2.*版本，敬请期待)
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

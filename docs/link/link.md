@@ -171,3 +171,7 @@ categories:
 
 ## 钉钉/微信公众号同步github acitons信息实现自动发送
 <p><a HREF="https://blog.csdn.net/qq_45832050/article/details/127473845" ADD_DATE="1702280329" >钉钉/微信公众号同步github acitons</a></p>
+
+## Vite 中文文档
+<p><a href="https://cn.vitejs.dev/" target="_blank">Vite 中文文档</a>
+</p>

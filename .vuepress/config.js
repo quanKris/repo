@@ -76,6 +76,7 @@ module.exports = {
         "前端工程化工具",
         "VUE",
         "vue3",
+        "Vite",
         "辞海",
         "小程序开发",
         "Vuepress语法",
