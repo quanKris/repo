@@ -529,3 +529,142 @@ if(screenWidth > 1800){
 - 第三个参数表示: flex-basis给上面两个属性分配多余空间之前, 计算项目是否有多余空间, 默认值为 auto, 即项目本身的大小
 
   flex: 1 ===  flex: 1 1 0
+
+
+## **Font Family引入外部字体**
+::: tip 1.字体格式
+1.ttf：专门用于标准浏览器和android等（最常用）
+
+2.svg： 支持ios
+
+3.eot：  仅支持IE浏览器
+
+4.woff： 支持火狐或谷歌
+:::
+
+
+::: tip 2.将字体文件添加到项目中
+将你想要使用的字体文件（通常是带有字体文件扩展名的文件，如.ttf、.otf、.woff、.woff2）添加到你的项目目录中。
+:::
+::: tip 3.声明引入的字体族（Font Family）
+在 CSS 文件中，使用 @font-face 规则声明外部字体。在 @font-face 规则中，你需要指定字体文件的路径和字体族的名称。例如：
+```css
+@font-face {
+  font-family: 'FontName';  /* 指定字体名称 */
+  src: url('path-to-font-file.ext');  /* 指定字体文件的路径和文件名 */
+}
+```
+:::
+::: tip 4.在设置css字体的时候，使用声明的字体族
+```css
+body {
+  font-family: 'FontName', sans-serif;
+}
+```
+:::
+
+栗子：
+```css
+@font-face {
+    font-family: "Noto Sans JP";
+    src: url("{{ app_url ~ asset('build/fonts/NotoSansJP-Bold.otf') }}");
+    font-weight: bold;
+}
+
+body {
+    width: 918px;
+    font-size: 10pt;
+    margin: 40px auto 0 auto;
+    font-family: "Noto Sans JP", Arial, sans-serif;
+    vertical-align: top;
+    line-height: 150%;
+}
+
+
+// icomoon
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?9st4wh');
+  src:  url('fonts/icomoon.eot?9st4wh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?9st4wh') format('truetype'),
+    url('fonts/icomoon.woff?9st4wh') format('woff'),
+    url('fonts/icomoon.svg?9st4wh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.im {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon';
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} 
+
+
+// iconfont
+@font-face {
+    font-family: "iconfont"; /* Project id 3190029 */
+    src: url('//at.alicdn.com/t/font_3190029_s7bf4wj67rb.eot?t=1651049078128'); /* IE9 */
+    src: url('//at.alicdn.com/t/font_3190029_s7bf4wj67rb.eot?t=1651049078128#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAVoAAsAAAAACqgAAAUbAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHFQGYACDQAqHfIZyATYCJAMYCw4ABCAFhGcHbhtMCREVpP+QfYkpXDtIsrGk4NjgnoGXq1Oxu/ie9J8PFJhAAQAAAADB898a+/tmdhezJOZJvJlo09mIWSNxCAUaDZKHCN80//wP3tO/FEMyMJ0EPglfUgPgaK29xn+gESeUV0tY97wyc+dzq+Alkhul0ygqpuJaSDP/X/8BOvf7417VjImxrxkvGwDm2LYsYPEAJSBrdw7qFu5VoFYQLJa9D9mUGZmY+T8EAfBGCQMI1RZ2buA/G5yWAGGQMPoFiGtlNjoyGDx5M6QaikCno8HutUCOwAbUNuEV4ND/fPmLingCCrLGuFTjuHkY3L0ReFtENFQB/UbxcC0wXwHYABogY2FWWa13z6PDdAZE0LKkhQmoh+kgQPgR9abizf7bNXUKs5JvTYuaahjiHx4ZEgRAHAy1L+BrVfbRSWw+NPDDmA8BfuwLFQ/8VAc+LOCnhhkFemdAISFLk/aW4DOUymRHIEIK5Ruv5ILj7PSBjEM1HnfuWEix5927SK377dtIkdutW98TgNZMAWYa86Goe3yS4tnZW9yDe3RMjHXBWqO21o/0x2pnEXFnUG9xeybGONzauoq6Od3bxyd7kRXG8pTvTgei64W9O5VpS0tGcfrttoNwNCHmHbTbmdlfxNclNaXFMcbRVcTZzqm/zTnN3Q/G6MjtFrpjc0FhAXEVF+++bHpi+AzeA0WUTgoFuSo27txJTEYnmJ3gvBuUmaqZGepjeinIZEeN2JramtQemNt/2K7jIeKuyMz4zCKuyorBAbpz7nIOjPKy/j62u5tZa72t77kqAYg2aHC/awS8RlU9oqS750B4zWZVbpvfWOt519PjVmSxAAOMF3JLdk3WUEkDJH0l6uslfCUDrlkCb/T6el+JAMlrJcWNdtPsu+w69pppO8Y7a8OTV34rRimjFeS3mRzOvcOIkDZ9rXGoNmdAfIox8a2hn6GP0Sz4wO5lfy78Wfji/qNuCAti7hwSXYj8eFOf6sV/TmEZloIOItFev+ruRMqsP1zXlnHSnESMI8+OczOm4X5EWGao4HuQ661C5/mQJOoJrStNaBxztYAZswh6lKosYtsk+eKfP6Wr2vIaZuESpt74y2LBpfeOlf1/8ZRNizVCmZv85VpHASSIyON6Af19zdRJqC8zN3IX9hGJDPUV8RKuy5dx6S/mNPINydWg0kfgBJpRxM95MUPFMya4VaGubwy7GfXzpT0bynxE/cWvdQp5CBrrDafYqVZpyGZ/XpKKyn6BXKZYmTgewjoA/yWJdn1qxBtiHjvdI22ok3og/U/PA5+/oxqBzHrfPLHfeexDw8p3IsaJu4v/kxpAi//Bzl4LalB3UiPgWC+7k22mjoo4FDCKVwH/1JY/rT+YJ0NpQiYSu1462GNQ0MILGjpE0BZeBmwwVMCBDn3wRhbzwz6wk4QGsbwAkiilAIGFaSDAxDYQYeEsmoS/C2Rw3gINLPwDFA9hPBmGhEjUlUXhUYN8h0xxTZbO+8PeYxJKYYsSz2hdBjGYjafZ3B3WaPvY4GIy956ALFdwy14Oy5KhsZyj8uPU+2Y/mVDZk4wVV60ri8KjBvkOmeKa3N4+/fXuMQmlsEj0s9M6WkSGh9l4ikDfqWtUx4U0u5jMPUkSEFfNFdx2c2Jpphma8lk5Kj9OOySb/YT0Iqx6PL22usUDgHfLuL7TVqLFElsc8cCLsP4Iipv3YagaOZu6QuvBHXNSolMpn96ZLsQoDUKKerOjILGerVotAA==') format('woff2'),
+    url('//at.alicdn.com/t/font_3190029_s7bf4wj67rb.woff?t=1651049078128') format('woff'),
+    url('//at.alicdn.com/t/font_3190029_s7bf4wj67rb.ttf?t=1651049078128') format('truetype'),
+    url('//at.alicdn.com/t/font_3190029_s7bf4wj67rb.svg?t=1651049078128#iconfont') format('svg');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fenzucopy:before {
+    content: "\e641";
+}
+
+.icon-fenzucopy-copy:before {
+    content: "\e736";
+}
+
+
+// Material Symbols Outlined
+@font-face {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  font-weight: 100 700;
+  src: url(fonts/materialsymbolsoutlined.woff2) format('woff2');
+}
+
+.ms {
+  font-family: 'Material Symbols Outlined';
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+.ms-edit:before {
+  content: "\e3c9";
+}
+
+.ms-note:before {
+  content: "\e091";
+}
+
+```
