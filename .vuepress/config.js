@@ -86,6 +86,8 @@ module.exports = {
         "Express",
         "MongoDB",
         "Mysql",
+        "接口规范",
+        "登录授权",
         "Koa2"
       ],
       "/docs/cicd/": [
