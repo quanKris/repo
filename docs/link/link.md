@@ -175,3 +175,7 @@ categories:
 ## Vite 中文文档
 <p><a href="https://cn.vitejs.dev/" target="_blank">Vite 中文文档</a>
 </p>
+
+## 万能导航
+<p><a href="https://try8.cn/tool/time/holiday" target="_blank">万能导航</a>
+</p>
