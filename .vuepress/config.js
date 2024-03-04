@@ -88,6 +88,7 @@ module.exports = {
         "Mysql",
         "接口规范",
         "登录授权",
+        "Apidoc",
         "Koa2"
       ],
       "/docs/cicd/": [
