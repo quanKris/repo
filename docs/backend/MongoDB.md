@@ -122,56 +122,6 @@ UserModel.updateOne({
 UserModel.deleteOne({_id})
 ```
 
-## 四、接口规范与业务分层
-
-### 1.接口规范
-
-<img src="https://blog.babade.asia/nodejs/image-20220414094020921.png" alt="image-20220414094020921" style="zoom: 67%; float: left;" />
-
-<img src="https://blog.babade.asia/nodejs/image-20220414094043782.png" alt="image-20220414094043782" style="zoom: 67%;" />
-
-### 2.业务分层
-
-![image-20220414094653807](https://blog.babade.asia/nodejs/image-20220414094653807.png)
-
-
-## 六、文件上传管理
-
-Multer 是一个 node.js 中间件，用于处理 `multipart/form-data` 类型的表单数据，它主要用于上传文件。
-
-**注意**: Multer 不会处理任何非 `multipart/form-data` 类型的表单数据。
-
-```
-npm install --save multer
-```
-
-```js
-//前后端分离-前端
-
-const params = new FormData()
-params.append('kerwinfile', file.file)
-params.append('username', this.username)
-const config = {
-	headers: {
-		"Content-Type":"multipart/form-data"
-	}
-}
-http.post('/api/upload', params, config).then(res => {
-	this.imgpath = 'http://localhost:3000' + res.data
-})	
-```
-
-Multer 会添加一个 `body` 对象 以及 `file` 或 `files` 对象 到 express 的 `request` 对象中。 `body` 对象包含表单的文本域信息，`file` 或 `files` 对象包含对象表单上传的文件信息。
-
-```js
-
-//前后端分离-后端
-router.post('/upload', upload.single('kerwinfile'),function(req, res, next) {
-	console.log(req.file)
-})
-```
-
-
 ## 十、Socket编程
 
 ### 1.websocket介绍
