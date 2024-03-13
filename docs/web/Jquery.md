@@ -149,6 +149,73 @@ $("input[name^='code']");//name属性以code开始的所有input标签
 $("input[name$='code']");//name属性以code结束的所有input标签
 $("input[name*='code']");//name属性包含code的所有input标签
 
+//页面中已存在aaa元素
+$('.aaa').on('click', function(e) {
+    e.preventDefault();
+});
+$('.aaa').on('change', function(e) {
+    e.preventDefault();
+});
+$('.aaa').on('input', function(e) {
+    e.preventDefault();
+});
+$('.aaa').on('select', function(e) {
+    e.preventDefault();
+});
+//动态监听aaa元素的生成和动作
+$(document).on('click', '.aaa', function () {
+    // Your code here
+})
+$(document).on('change', '.aaa', function () {
+    // Your code here
+});
+$(document).on('input', '.aaa', function () {
+    // Your code here
+});
+$(document).on('select', '.aaa', function () {
+    // Your code here
+});
+$(document).on('mouseover', '.aaa', function () {
+    // Your code here
+});
+$(document).on('mouseout', '.aaa', function () {
+    // Your code here
+});
+$(document).on('keydown', '.aaa', function () {
+    // Your code here
+});
+$(document).on('keyup', '.aaa', function () {
+    // Your code here
+});
+//给某个元素（多个）循环添加事件
+$('.target').each(function() {
+    $(this).on('click', function() {
+        // 处理点击事件的代码
+    });
+});
+
+
+$.fn.extend():
+$.fn 是 jQuery 原型的别名，它是 jQuery 对象的原型，通过它扩展的方法将会成为 jQuery 对象的方法，因此可以直接在 jQuery 对象上调用。
+使用 $.fn.extend() 可以扩展 jQuery 对象的方法，通常用于创建自定义 jQuery 插件。
+示例：
+$.fn.extend({
+    myPlugin: function() {
+        // Your plugin code here
+    }
+});
+
+
+$.extend():
+$.extend() 用于扩展 jQuery 对象本身，或者是在 jQuery 命名空间下创建新的方法或对象。
+它通常用于添加全局的工具函数，或者扩展 jQuery 对象的属性。
+示例：
+$.extend({
+    myUtility: function() {
+        // Your utility function code here
+    }
+});
+
 ```
 
 ## **jq拖拽**
