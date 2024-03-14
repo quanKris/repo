@@ -6,7 +6,7 @@ categories:
 ---
 <!-- [TOC] -->
 
-## **基础**
+## **元素的获取和增删方法**
 
 ```js
 //文档就绪事件
@@ -148,7 +148,10 @@ $("input[id*='code']");//id属性包含code的所有input标签
 $("input[name^='code']");//name属性以code开始的所有input标签
 $("input[name$='code']");//name属性以code结束的所有input标签
 $("input[name*='code']");//name属性包含code的所有input标签
+```
+## **Jquery常用触发方法**
 
+```js
 //页面中已存在aaa元素
 $('.aaa').on('click', function(e) {
     e.preventDefault();
@@ -193,8 +196,10 @@ $('.target').each(function() {
         // 处理点击事件的代码
     });
 });
+```
 
-
+## **jquery 拓展方法**
+```js
 $.fn.extend():
 $.fn 是 jQuery 原型的别名，它是 jQuery 对象的原型，通过它扩展的方法将会成为 jQuery 对象的方法，因此可以直接在 jQuery 对象上调用。
 使用 $.fn.extend() 可以扩展 jQuery 对象的方法，通常用于创建自定义 jQuery 插件。
@@ -204,7 +209,7 @@ $.fn.extend({
         // Your plugin code here
     }
 });
-
+在这个例子中，myPlugin() 方法将会成为 jQuery 对象的方法，你可以通过 $('selector').myPlugin() 的形式调用它。
 
 $.extend():
 $.extend() 用于扩展 jQuery 对象本身，或者是在 jQuery 命名空间下创建新的方法或对象。
@@ -215,7 +220,17 @@ $.extend({
         // Your utility function code here
     }
 });
-
+在这个例子中，myUtility() 方法将会成为 jQuery 的全局方法，你可以通过 $.myUtility() 的形式调用它。
+```
+## **页面滚动到某一特定位置**
+```js
+$('#scrollButton').on('click', function() {
+    // 获取目标元素的位置（这里假设目标元素是 id 为 target 的元素）
+    var targetOffset = $('#target').offset().top;
+    
+    // 滚动到目标元素的位置
+    $('html, body').animate({scrollTop: targetOffset}, 'slow');
+});
 ```
 
 ## **jq拖拽**
