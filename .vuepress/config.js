@@ -51,6 +51,10 @@ module.exports = {
           {
             "text": "Link",
             "link": "/docs/link/link"
+          },
+          {
+            "text": "Project",
+            "link": "/docs/project/登录注册"
           }
         ]
       },
@@ -101,6 +105,10 @@ module.exports = {
       "/docs/link/": [
         // "",
         "link",
+      ],
+      "/docs/project/": [
+        // "",
+        "登陆注册",
       ],
     },
     "blogConfig": {
