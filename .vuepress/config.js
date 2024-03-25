@@ -54,7 +54,7 @@ module.exports = {
           },
           {
             "text": "Project",
-            "link": "/docs/project/登录注册"
+            "link": "/docs/project/loginRegister"
           }
         ]
       },
@@ -108,7 +108,7 @@ module.exports = {
       ],
       "/docs/project/": [
         // "",
-        "登陆注册",
+        "loginRegister",
       ],
     },
     "blogConfig": {
