@@ -109,6 +109,8 @@ module.exports = {
       "/docs/project/": [
         // "",
         "loginRegister",
+        "server",
+        "前后端部署",
       ],
     },
     "blogConfig": {
