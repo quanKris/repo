@@ -76,6 +76,7 @@ module.exports = {
         "CSS",
         "JavaScript",
         "Jquery",
+        "轮子",
         "ES6",
         "前端工程化工具",
         "VUE",
