@@ -100,6 +100,7 @@ module.exports = {
       "/docs/cicd/": [
         "Git常用命令",
         "GithubActions",
+        "nvm安装",
         "钉钉&公众号发送信息",
         "Github在线预览demo"
       ],
