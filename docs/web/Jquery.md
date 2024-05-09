@@ -236,40 +236,33 @@ $('#scrollButton').on('click', function() {
 ## **jq拖拽**
 
 ```js
-$(document).on('mousedown', '.titleInfoPopuph', function (e) {
-    var $d = $(this).parents('.titleInfoPopup').addClass('feedback-draggable'),
-        drag_h = $d.outerHeight(),
-        drag_w = $d.outerWidth(),
-        pos_y = $d.offset().top + drag_h - e.pageY,
-        pos_x = $d.offset().left + drag_w - e.pageX;
-    $d.css('z-index', 40000).parents().on('mousemove', function (e) {
-        _top = e.pageY + pos_y - drag_h;
-        _left = e.pageX + pos_x - drag_w;
-        _bottom = drag_h - e.pageY;
-        _right = drag_w - e.pageX;
+$(document).on('mousedown', '.dialog-title', function(e) {
+    var $dialog = $(this).closest('.custom-dialog');
+    var offset = $dialog.offset();
+    var mouseX = e.pageX;
+    var mouseY = e.pageY;
 
-        if (_left < 0) _left = 0;
-        if (_top < 0) _top = 0;
-        if (_right > $(window).width())
-            _left = $(window).width() - drag_w;
-        if (_left > $(window).width() - drag_w)
-            _left = $(window).width() - drag_w;
-        if (_bottom > $(document).height())
-            _top = $(document).height() - drag_h;
-        if (_top > $(document).height() - drag_h)
-            _top = $(document).height() - drag_h;
+    $(document).on('mousemove', function(e) {
+        var deltaX = e.pageX - mouseX;
+        var deltaY = e.pageY - mouseY;
 
-        $('.feedback-draggable').offset({
-            top: _top,
-            left: _left
-        }).on("mouseup", function () {
-            $(this).removeClass('feedback-draggable');
-        });
+        var newLeft = offset.left + deltaX;
+        var newTop = offset.top + deltaY;
+
+        var maxX = $(window).width() - $dialog.outerWidth();
+        var maxY = $(window).height() - $dialog.outerHeight();
+
+        newLeft = Math.max(0, Math.min(newLeft, maxX));
+        newTop = Math.max(0, Math.min(newTop, maxY));
+
+        $dialog.offset({ top: newTop, left: newLeft });
     });
+
+    $(document).on('mouseup', function() {
+        $(document).off('mousemove');
+    });
+
     e.preventDefault();
-}).on('mouseup', function () {
-    $(this).parents('.titleInfoPopup').removeClass('feedback-draggable');
-    $(this).parents().off('mousemove mousedown');
 });
 ```
 

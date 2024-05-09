@@ -74,6 +74,7 @@ module.exports = {
       "/docs/web/": [
         "HTML",
         "CSS",
+        "TailwindCSS",
         "JavaScript",
         "Jquery",
         "轮子",
