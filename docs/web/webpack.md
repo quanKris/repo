@@ -53,7 +53,7 @@ requireAll(req)
 ```
 
 4. icon 组件
-> 
+> 具体的组件内容，可以设置一些自定义的传入值
 ```vue
 <template>
   <svg :class="svgClass" aria-hidden="true" v-on="$listeners">
@@ -81,3 +81,8 @@ export default {
 ```js
 <svg-icon icon-class="top" class="Icon Icon--backToTopArrow" />
 ```
+::: tip
+在 Webpack 配置中，将 src/icons 目录下的 SVG 文件打包成精灵图后，这些图标可以通过 <use> 元素引用。
+
+在 icon.js 代码中，通过 require.context 导入的 SVG 文件可以在需要时加载，并使用它们的 id 来引用这些图标。
+:::
