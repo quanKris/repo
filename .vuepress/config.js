@@ -80,6 +80,7 @@ module.exports = {
         "Jquery",
         "webpack",
         "轮子",
+        "国际化",
         "ES6",
         "前端工程化工具",
         "VUE",
